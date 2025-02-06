@@ -16,6 +16,7 @@ pip install anthropic
 pip install mistralai
 pip install openai
 pip install tiktoken
+pip install python-dotenv
 ```
 
 Then directly 'python benchmark_test_baseline.py'
