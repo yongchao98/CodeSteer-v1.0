@@ -58,14 +58,6 @@ The loss curve have not converged (since our compute is currently limited...). B
 
 We prepare to release a complete wandb plot for these experiment runs, although you can try it your own and it may even be faster than our run (reasons above).
 
-
-
-
-
-
-
-
-
 ## Environment Setup
 
 ```bash
@@ -87,6 +79,21 @@ pip3 install flash-attn --no-build-isolation
 
 
 pip install -r requirements.txt # other packages
+```
+
+## LLM API Key Setup
+If you want to use several API-based LLMs as TaskLLM or CodeSteerLLM, then you need to set up API key.
+
+1. First, create a .env file in your project root:
+```
+OPENAI_API_KEY=your_key_here
+CLAUDE_API_KEY=your_key_here
+MIXTRAL_API_KEY=your_key_here
+DEEPSEEK_API_KEY=your_key_here
+```
+2. Add this .env file to your .gitignore to prevent accidentally committing it:
+```
+echo ".env" >> .gitignore
 ```
 
 ## Train Models
