@@ -42,11 +42,13 @@ During the update phase:
 
 We run RAGEN on Qwen-2.5-{0.5B, 3B}-{Instruct, None} and DeepSeek-R1-Distill-Qwen-1.5B, on the [Gym-Sokoban](https://github.com/mpSchrader/gym-sokoban) task.
 
+<img src="./Figures/Table-results.png" width="800px" alt="s" />
+
 About the sokoban task (from the official repo): Sokoban is Japanese for warehouse keeper and a traditional video game. The game is a transportation puzzle, where the player has to push all boxes in the room on the storage locations/ targets. The possibility of making irreversible mistakes makes these puzzles so challenging especially for Reinforcement Learning algorithms, which mostly lack the ability to think ahead.
 
 NOTE: See [Visualization](https://github.com/ZihanWang314/ragen/#visualization) Section for details. The maximum reward of this environment is **10.9**. Action spaces are 0-4 (0: Stand, 1: Up, 2: Down, 3: Left, 4: Right).
 
-<img src="./public/loss_curve.png" width="800px" alt="s" />
+<img src="./Figures/Cost-token-runtime.png" width="800px" alt="s" />
 
 The loss curve have not converged (since our compute is currently limited...). But we already see some trends:
  - Instruct-finetuned models are not significantly advantaged ahead Pretrained-only models, although they are better at start.
@@ -162,15 +164,6 @@ logging.log_n_image_per_batch=8 # save _ images per batch
 ```bash
 sudo apt-get install fonts-noto-cjk
 ```
-
-3. Example image for one trajectory:
-<p align="center" style="display: flex; justify-content: center; gap: 10px;">
-    <img src="./public/step_1.png" width="200px" alt="s" />
-    <img src="./public/step_2.png" width="200px" alt="s" />
-<!--     <img src="./public/step_3.png" width="200px" alt="s" />
-    <img src="./public/step_4.png" width="200px" alt="s" />
-    <img src="./public/step_5.png" width="200px" alt="s" /> -->
-</p>
 
 
 ## Cases
