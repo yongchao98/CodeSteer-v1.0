@@ -2,7 +2,7 @@
 
 ## Framework
 
-<img src="./public/framework.png" width="800px" alt="s" />
+<img src="./public/CodeSteer-intro.png" width="800px" alt="s" />
 
 <p align="center" style="font-size: 16px;">
 Figure: Rollout and Update Pipeline
