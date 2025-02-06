@@ -1,12 +1,4 @@
-# CodeSteer
-
-**Symbolic-Augmented Language Models via Code/Text Guidance**
-
-<p align="center" style="font-size: 18px;">
-  <strong>RAGEN</strong> is the first reproduction of the <strong>DeepSeek-R1(-Zero)</strong> methods for <em>training agentic models</em>.<br>
-  <em>We strongly believe in the future of RL + LLM + Agents. The release is a minimally viable leap forward.</em>
-</p>
-
+# CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
 
 ## Framework
 
