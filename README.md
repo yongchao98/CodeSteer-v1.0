@@ -1,14 +1,6 @@
-# CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
+# CodeSteer
 
-**Long-Horizon Planning for Multi-Agent Robots in Partially Observable Environments**
-
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![Documentation](https://img.shields.io/badge/docs-coming_soon-red.svg)](https://github.com/nsidn98/LLaMAR)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Arxiv](https://img.shields.io/badge/arXiv-2407.10031-green)](https://arxiv.org/abs/2407.10031)
-[![License: MIT](https://img.shields.io/badge/Project-Website-blue)](https://nsidn98.github.io/LLaMAR/)
-
-</div>
+**Symbolic-Augmented Language Models via Code/Text Guidance**
 
 <p align="center" style="font-size: 18px;">
   <strong>RAGEN</strong> is the first reproduction of the <strong>DeepSeek-R1(-Zero)</strong> methods for <em>training agentic models</em>.<br>
