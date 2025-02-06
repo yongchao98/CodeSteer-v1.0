@@ -34,6 +34,7 @@ During the update phase:
 
 
 ### Benefits
+<img src="./Figures/LLM-makes-simple-mistakes-gather.png" width="800px" alt="s" />
 * **Unified Multi-round Processing**: Maintains consistency by avoiding new instance creation that could destabilize batch sizes
 * **World Modeling**: Potentially enables world modeling (state and reward prediction), helps LLM-agent to plan
 
@@ -174,35 +175,19 @@ There are only limited cases for now, including [reward hacking](https://github.
 
 We welcome all sorts of feedback! Please just raise an issue, no matter if it's any bugs you find or specific questions / suggestions regarding the project, so our team members won't be answering similar problems multiple times and thus would lead to more productive and efficient community building. Cheers!
 
-## Authors
+## Assistance
 
-[Zihan Wang*](https://zihanwang314.github.io/)
-
-[Kangrui Wang](https://jameskrw.github.io/)
-
-[Qineng Wang](https://qinengwang-aiden.github.io/)
-
-[Pingyue Zhang](https://williamzhangsjtu.github.io/)
-
-[Manling Li†](https://limanling.github.io)
-
-*: Project Lead; †: Advising.
-Remaining authors are alphabetical order.
-
-
+Contacting [Yongchao Chen](https://yongchao98.github.io/YongchaoChen/) and [Chuchu Fan](https://chuchu.mit.edu) for any questions and discussion.
 
 ## Acknowledgements
-
-
 We thank [DeepSeek](https://github.com/deepseek-ai/DeepSeek-R1) for providing the DeepSeek-R1 model and ideas. We thank the [veRL](https://github.com/volcengine/verl) team for their infrastructure. We thank the [TinyZero](https://github.com/Jiayi-Pan/TinyZero) team for their discoveries that inspired our early exploration. We thank Yiping Lu, Runxin Xu, Kyunghyun Cho for insightful discussions with them.
 
 ## Citation
 ```md
-@misc{RAGEN,
-  author       = {Zihan Wang and Kangrui Wang and Qineng Wang and Pingyue Zhang and Manling Li},
-  title        = {RAGEN: A General-Purpose Reasoning Agent Training Framework},
-  year         = {2025},
-  organization = {GitHub},
-  url          = {https://github.com/ZihanWang314/ragen},
+@article{chen2024steering,
+  title={Steering Large Language Models between Code Execution and Textual Reasoning},
+  author={Chen, Yongchao and Jhamtani, Harsh and Sharma, Srinagesh and Fan, Chuchu and Wang, Chi},
+  journal={arXiv preprint arXiv:2410.03524},
+  year={2024}
 }
 ```
