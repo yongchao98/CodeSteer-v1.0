@@ -6,6 +6,9 @@ The synthesized question dataset for 37 tasks are in dataset_gather dictionary.
 
 To run the code:
 First set up environment:
+```
+conda create -n CodeSteer python=3.10
+conda activate CodeSteer
 pip install sympy
 pip install python-constraint
 pip install pandas
@@ -13,6 +16,7 @@ pip install anthropic --upgrade
 pip install mistralai
 pip install openai
 pip install tiktoken
+```
 
 Then directly 'python benchmark_test_baseline.py'
 
