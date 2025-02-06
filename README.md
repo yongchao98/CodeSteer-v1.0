@@ -86,10 +86,10 @@ If you want to use several API-based LLMs as TaskLLM or CodeSteerLLM, then you n
 
 1. First, create a .env file in your project root:
 ```
-OPENAI_API_KEY=your_key_here
-CLAUDE_API_KEY=your_key_here
-MIXTRAL_API_KEY=your_key_here
-DEEPSEEK_API_KEY=your_key_here
+OPENAI_API_KEY='your_key_here'
+CLAUDE_API_KEY='your_key_here'
+MIXTRAL_API_KEY='your_key_here'
+DEEPSEEK_API_KEY='your_key_here'
 ```
 2. Add this .env file to your .gitignore to prevent accidentally committing it:
 ```
