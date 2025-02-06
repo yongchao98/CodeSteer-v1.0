@@ -9,6 +9,7 @@ First set up environment:
 ```
 conda create -n CodeSteer python=3.10
 conda activate CodeSteer
+pip install accelerate
 pip install sympy
 pip install python-constraint
 pip install pandas
@@ -17,6 +18,10 @@ pip install mistralai
 pip install openai
 pip install tiktoken
 pip install python-dotenv
+pip install datasets
+pip install peft
+pip install trl
+pip install transformers==4.46.1
 ```
 
 Then directly 'python benchmark_test_baseline.py'
