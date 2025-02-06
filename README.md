@@ -12,7 +12,7 @@ conda activate CodeSteer
 pip install sympy
 pip install python-constraint
 pip install pandas
-pip install anthropic --upgrade
+pip install anthropic
 pip install mistralai
 pip install openai
 pip install tiktoken
