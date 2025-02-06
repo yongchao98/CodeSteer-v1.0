@@ -5,7 +5,7 @@ The synthesized question dataset for 37 tasks are in dataset_gather dictionary.
 
 
 To run the code:
-1) First set up environment:
+First set up environment:
 pip install sympy
 pip install python-constraint
 pip install pandas
@@ -13,8 +13,6 @@ pip install anthropic --upgrade
 pip install mistralai
 pip install openai
 pip install tiktoken
-
-3) Input the LLM key in generation_models.py line 18-21.
 
 Then directly 'python benchmark_test_baseline.py'
 
