@@ -32,7 +32,7 @@ The cost of tokens and runtimes for each method are as follows. GPT-4o + CodeSte
 ## Environment Setup
 The fine-tuning and inference of CodeSteerLLM are based on [Llama-factory](https://github.com/hiyouga/LLaMA-Factory) with some modules modified by us.
 ```
-git clone git@github.com:yongchao98/CodeSteer-v1.0.git
+git clone https://github.com/yongchao98/CodeSteer-v1.0.git
 cd CodeSteer-v1.0
 
 conda create -n CodeSteer python=3.10
