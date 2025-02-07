@@ -17,3 +17,4 @@ anthropic
 mistralai
 openai
 python-dotenv
+deepspeed
