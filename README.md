@@ -1,16 +1,15 @@
 # CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
 <img src="./Figures/Tag.png" width="800px" alt="s" />
 
-## Framework
 [Huggingface🤗](https://huggingface.co/yongchao98/CodeSteer-v1)
-[Yongchao Chen](https://yongchao98.github.io/YongchaoChen/)
+## Framework
 <img src="./Figures/CodeSteer-intro.png" width="800px" alt="s" />
 
 <p align="center" style="font-size: 16px;">
 Figure: CodeSteer on guiding LLM code/text generation to integrate symbolic computing. At each interaction with TaskLLM, it reviews current and previous answers, then provides guidance for the next round.
 </p>
 
-### Inspirations
+## Inspirations
 <img src="./Figures/LLM-makes-simple-mistakes-gather.png" width="800px" alt="s" />
 <p align="center" style="font-size: 16px;">
 Figure: The cases that GPT-4o makes simple mistakes by direct textual reasoning but can reliably solve the problem with prompted to use code.
