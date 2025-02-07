@@ -1,12 +1,12 @@
 # CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
-<img src="./Figures/Tag.png" width="800px" alt="s" />
+<img src="./Figures/Tag.png" width="700px" alt="s" />
 
 [Huggingface🤗](https://huggingface.co/yongchao98/CodeSteer-v1)
 [Model Weights](https://drive.google.com/drive/folders/1qb_rec6f8rMYtFKm0eQpad0L0uHCwgpL?usp=share_link)
 [Finetune Datasets](https://drive.google.com/drive/folders/1Byn-99gFd5ckRkPMJ8-zagzW7XDfO8ie?usp=share_link)
 
 ## Framework
-<img src="./Figures/CodeSteer-intro.png" width="500px" alt="s" />
+<img src="./Figures/CodeSteer-intro.png" width="800px" alt="s" />
 
 <p align="center" style="font-size: 16px;">
 Figure: CodeSteer on guiding LLM code/text generation to integrate symbolic computing. At each interaction with TaskLLM, it reviews current and previous answers, then provides guidance for the next round.
