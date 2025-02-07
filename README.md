@@ -85,7 +85,7 @@ bash ./infer_CodeSteer.sh
 ```
 
 ### Finetuning CodeSteerLLM with synthesized data
-For both SFT and DPO
+Both our synthesized datasets of SFT and DPO finetuning are in [Finetune Datasets](https://drive.google.com/drive/folders/1Byn-99gFd5ckRkPMJ8-zagzW7XDfO8ie?usp=share_link).
 
 ## Feedback
 
