@@ -49,21 +49,11 @@ We compare GPT-4o + CodeSteer with OpenAI o1 and DeepSeek R1 on SymBench, with 2
 
 <img src="./Figures/Table-results.png" width="800px" alt="s" />
 
-About the sokoban task (from the official repo): Sokoban is Japanese for warehouse keeper and a traditional video game. The game is a transportation puzzle, where the player has to push all boxes in the room on the storage locations/ targets. The possibility of making irreversible mistakes makes these puzzles so challenging especially for Reinforcement Learning algorithms, which mostly lack the ability to think ahead.
-
-NOTE: See [Visualization](https://github.com/ZihanWang314/ragen/#visualization) Section for details. The maximum reward of this environment is **10.9**. Action spaces are 0-4 (0: Stand, 1: Up, 2: Down, 3: Left, 4: Right).
-
+The cost of tokens and runtimes for each method are as follows.
 <img src="./Figures/Cost-token-runtime.png" width="800px" alt="s" />
 
-The loss curve have not converged (since our compute is currently limited...). But we already see some trends:
- - Instruct-finetuned models are not significantly advantaged ahead Pretrained-only models, although they are better at start.
- - 3B models are performing better than 0.5B models as well, but the advantages are also not that obvious at around 40 steps.
- - Interestingly, R1-distilled 1.5B model do less well than 0.5B models for now.
-
-We prepare to release a complete wandb plot for these experiment runs, although you can try it your own and it may even be faster than our run (reasons above).
-
 ## Environment Setup
-The fine-tuning and inference 
+The fine-tuning and inference of CodeSteerLLM is based on [Llama-factory](https://github.com/hiyouga/LLaMA-Factory).
 ```
 git clone git@github.com:yongchao98/CodeSteer-v1.0.git
 cd CodeSteer-v1.0
