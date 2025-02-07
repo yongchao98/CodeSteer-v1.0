@@ -4,6 +4,8 @@
 [Huggingface🤗](https://huggingface.co/yongchao98/CodeSteer-v1)
 [Model Weights](https://drive.google.com/drive/folders/1qb_rec6f8rMYtFKm0eQpad0L0uHCwgpL?usp=share_link)
 [Finetune Datasets](https://drive.google.com/drive/folders/1Byn-99gFd5ckRkPMJ8-zagzW7XDfO8ie?usp=share_link)
+[SymBench Datasets](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/dataset_gather)
+[SymBench Synthesis Scripts](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/benchmark)
 
 ## Framework
 <img src="./Figures/CodeSteer-intro.png" width="800px" alt="s" />
@@ -68,7 +70,7 @@ echo ".env" >> .gitignore
 ## Train and Test Models
 
 ### Create test samples
-The synthesized test samples for 37 tasks are in [dataset_gather](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/dataset_gather) dictionary. You can also synthezise the samples by yourself with tunable complexities with scripts in [create_dataset](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/create_dataset).
+The synthesized test samples for 37 tasks of SymBench are in [dataset_gather](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/dataset_gather) dictionary. You can also synthezise the samples by yourself with tunable complexities with scripts in [create_dataset](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/create_dataset).
 
 ### Run inference without GPU, test close LLM as CodeSteerLLM
 We can directly use unfinetuned model like GPT-4o as CodeSteerLLM, in this case directly run
