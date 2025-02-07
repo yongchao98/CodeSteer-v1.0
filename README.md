@@ -6,7 +6,7 @@
 [Finetune Datasets](https://drive.google.com/drive/folders/1Byn-99gFd5ckRkPMJ8-zagzW7XDfO8ie?usp=share_link)
 
 ## Framework
-<img src="./Figures/CodeSteer-intro.png" width="800px" alt="s" />
+<img src="./Figures/CodeSteer-intro.png" width="500px" alt="s" />
 
 <p align="center" style="font-size: 16px;">
 Figure: CodeSteer on guiding LLM code/text generation to integrate symbolic computing. At each interaction with TaskLLM, it reviews current and previous answers, then provides guidance for the next round.
