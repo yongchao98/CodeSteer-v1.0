@@ -88,25 +88,25 @@ We prepare to release a complete wandb plot for these experiment runs, although 
 
 ## Environment Setup
 
-```bash
-conda create -n ragen python=3.9 -y
-conda activate ragen
+```
+git clone git@github.com:yongchao98/CodeSteer-v1.0.git
+cd CodeSteer-v1.0
 
-git clone git@github.com:ZihanWang314/ragen.git
-cd ragen
-
-# setup install
-pip install -e . # includes verl-ragen (by us) and verl-core (by the verl team)
-pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121
-
-
-# Optional: to install flash-attn, you may need to install cuda-toolkit first if you don't have
-conda install -c "nvidia/label/cuda-12.1.0" cuda-toolkit -y
-export CUDA_HOME=$CONDA_PREFIX # /opt/conda/envs/zero
-pip3 install flash-attn --no-build-isolation
-
-
-pip install -r requirements.txt # other packages
+conda create -n CodeSteer python=3.10
+conda activate CodeSteer
+pip install accelerate==1.0.1
+pip install sympy
+pip install python-constraint
+pip install pandas
+pip install anthropic
+pip install mistralai
+pip install openai
+pip install tiktoken
+pip install python-dotenv
+pip install datasets==3.1.0
+pip install peft==0.12.0
+pip install trl==0.9.6
+pip install transformers==4.46.1
 ```
 
 ## LLM API Key Setup
@@ -185,26 +185,6 @@ bash ./train.sh # more arguments in this file
 # default config file is verl/trainer/config/ppo_trainer.yaml
 
 ```
-
-
-## Visualization
-1. By setting arguments in `train.sh`, you can visualize the trajectory:
-```bash
-logging.log_images=True # set to True to log images
-logging.log_image_dir=.log.debug/trajectory # set to the directory to save images
-logging.log_image_step_size=1 # save image every _ steps
-logging.log_n_image_per_batch=8 # save _ images per batch
-```
-
-2. You may also need to install fonts to make the figures displayed correctly:
-```bash
-sudo apt-get install fonts-noto-cjk
-```
-
-
-## Cases
-Please see cases/ file.
-There are only limited cases for now, including [reward hacking](https://github.com/ZihanWang314/agent-r1/blob/main/cases/reward_hacking.txt) and the [suck moment](https://github.com/ZihanWang314/agent-r1/blob/main/cases/suck_moment.txt). we will add more cases recently.
 
 ## Feedback
 
