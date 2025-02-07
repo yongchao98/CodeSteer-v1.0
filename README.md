@@ -8,7 +8,7 @@ The synthesized question dataset for 37 tasks are in dataset_gather dictionary.
 <img src="./Figures/CodeSteer-intro.png" width="800px" alt="s" />
 
 <p align="center" style="font-size: 16px;">
-Figure: Rollout and Update Pipeline
+Figure: CodeSteer on guiding LLM code/text generation to integrate symbolic computing. At each interaction with TaskLLM, it reviews current and previous answers, then provides guidance for the next round.
 </p>
 
 
