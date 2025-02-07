@@ -36,15 +36,16 @@ During the update phase:
 * Final reward computation: $r = {\rm sum}(r_0,...r_{k-1})$ for each rollout generated
 
 
-### Benefits
+### Inspirations
 <img src="./Figures/LLM-makes-simple-mistakes-gather.png" width="800px" alt="s" />
-* **Unified Multi-round Processing**: Maintains consistency by avoiding new instance creation that could destabilize batch sizes
-* **World Modeling**: Potentially enables world modeling (state and reward prediction), helps LLM-agent to plan
+<p align="center" style="font-size: 16px;">
+Figure: For many tasks, symbolic computing via coding is much simpler than direct textual reasoning.
+</p>
 
 
 ## Performance
 
-We run RAGEN on Qwen-2.5-{0.5B, 3B}-{Instruct, None} and DeepSeek-R1-Distill-Qwen-1.5B, on the [Gym-Sokoban](https://github.com/mpSchrader/gym-sokoban) task.
+We compare GPT-4o + CodeSteer with OpenAI o1 and DeepSeek R1 on SymBench, with 28 seen tasks and 9 unseen tasks.
 
 <img src="./Figures/Table-results.png" width="800px" alt="s" />
 
@@ -101,7 +102,7 @@ echo ".env" >> .gitignore
 
 ## Train Models
 
-### Create data
+### Create test samples
 
 On the [Gym-Sokoban](https://github.com/mpSchrader/gym-sokoban) task, We create 10k first-round-observation data for training and run for <=1 epoch.
 ```bash
@@ -163,14 +164,11 @@ bash ./train.sh # more arguments in this file
 
 ## Feedback
 
-We welcome all sorts of feedback! Please just raise an issue, no matter if it's any bugs you find or specific questions / suggestions regarding the project, so our team members won't be answering similar problems multiple times and thus would lead to more productive and efficient community building. Cheers!
+We welcome all sorts of feedback! Please just raise an issue, no matter if it's any bugs you find or specific questions / suggestions regarding the project.
 
 ## Assistance
 
 Contacting [Yongchao Chen](https://yongchao98.github.io/YongchaoChen/) and [Chuchu Fan](https://chuchu.mit.edu) for any questions and discussion.
-
-## Acknowledgements
-We thank [DeepSeek](https://github.com/deepseek-ai/DeepSeek-R1) for providing the DeepSeek-R1 model and ideas. We thank the [veRL](https://github.com/volcengine/verl) team for their infrastructure. We thank the [TinyZero](https://github.com/Jiayi-Pan/TinyZero) team for their discoveries that inspired our early exploration. We thank Yiping Lu, Runxin Xu, Kyunghyun Cho for insightful discussions with them.
 
 ## Citation
 ```md
