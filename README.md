@@ -1,5 +1,5 @@
 # CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
-<img src="./Figures/Tag.png" width="700px" alt="s" />
+<img src="./Figures/Tag.png" width="650px" alt="s" />
 
 [Huggingface🤗](https://huggingface.co/yongchao98/CodeSteer-v1)
 [Model Weights](https://drive.google.com/drive/folders/1qb_rec6f8rMYtFKm0eQpad0L0uHCwgpL?usp=share_link)
