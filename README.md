@@ -37,19 +37,7 @@ cd CodeSteer-v1.0
 
 conda create -n CodeSteer python=3.10
 conda activate CodeSteer
-pip install accelerate==1.0.1
-pip install sympy
-pip install python-constraint
-pip install pandas
-pip install anthropic
-pip install mistralai
-pip install openai
-pip install tiktoken
-pip install python-dotenv
-pip install datasets==3.1.0
-pip install peft==0.12.0
-pip install trl==0.9.6
-pip install transformers==4.46.1
+pip install -r requirements.txt
 ```
 
 ## LLM API Key Setup
