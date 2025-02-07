@@ -28,7 +28,7 @@ The cost of tokens and runtimes for each method are as follows. GPT-4o + CodeSte
 <img src="./Figures/Cost-token-runtime.png" width="800px" alt="s" />
 
 ## Environment Setup
-The fine-tuning and inference of CodeSteerLLM is based on [Llama-factory](https://github.com/hiyouga/LLaMA-Factory).
+The fine-tuning and inference of CodeSteerLLM are based on [Llama-factory](https://github.com/hiyouga/LLaMA-Factory) with some modules modified by us.
 ```
 git clone git@github.com:yongchao98/CodeSteer-v1.0.git
 cd CodeSteer-v1.0
@@ -65,24 +65,24 @@ DEEPSEEK_API_KEY='your_key_here'
 echo ".env" >> .gitignore
 ```
 
-## Train Models
+## Train and Test Models
 
 ### Create test samples
 The synthesized test samples for 37 tasks are in [dataset_gather](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/dataset_gather) dictionary. You can also synthezise the samples by yourself with tunable complexities with scripts in [create_dataset](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/create_dataset).
 
-### Run inference without GPU, Close LLM as CodeSteerLLM
-We can directly use unfinetuned model like GPT-4o as CodeSteerLLM, then directly run
+### Run inference without GPU, test close LLM as CodeSteerLLM
+We can directly use unfinetuned model like GPT-4o as CodeSteerLLM, in this case directly run
 ```
 python benchmark_test_baseline.py
 ```
 
-### Run inference with GPU, finetuned CodeSteerLLM
+### Run inference with GPU, test finetuned CodeSteerLLM
 ```bash
 bash ./infer_CodeSteer.sh
-# default config file is ./llama3_8B_CodeSteer.yaml using the model uploaded on Huggingface.
+# default config file is ./llama3_8B_CodeSteer.yaml using the model uploaded on Huggingface. You can also download the [Model Weights](https://drive.google.com/drive/folders/1qb_rec6f8rMYtFKm0eQpad0L0uHCwgpL?usp=share_link) in your local and change the path in llama3_8B_CodeSteer.yaml.
 ```
 
-### Finetuning CodeSteerLLM with GPU
+### Finetuning CodeSteerLLM with synthesized data
 For both SFT and DPO
 
 ## Feedback
