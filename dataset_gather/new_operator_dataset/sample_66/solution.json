@@ -1,0 +1,9 @@
+{
+  "solution": 105.0,
+  "complexity": 5,
+  "operator_definitions": {
+    "@": "4*a+2*b",
+    "$": "5*a+1*b",
+    "%": "4*a+4*b"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "JNTXDYVEGIYAK",
+  "rounds": [
+    {
+      "add": "L",
+      "remove": "N"
+    },
+    {
+      "add": "Y",
+      "remove": "Y"
+    },
+    {
+      "add": "Z",
+      "remove": "L"
+    },
+    {
+      "add": "P",
+      "remove": "I"
+    },
+    {
+      "add": "H",
+      "remove": "Y"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

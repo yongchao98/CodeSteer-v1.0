@@ -1,0 +1,11 @@
+{
+  "initial_cards": "JHUFWIXNAPYRX",
+  "rounds": [
+    {
+      "add": "A",
+      "remove": "P"
+    }
+  ],
+  "solution": 0,
+  "complexity": 1
+}

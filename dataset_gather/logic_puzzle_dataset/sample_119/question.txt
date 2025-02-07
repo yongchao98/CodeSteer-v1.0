@@ -1,0 +1,11 @@
+Given a 7*7 grid where each cell contains a number (between -14 to 14), you must select 16 different numbers from these cells. The product of each row and column of the selected number must be greater than 0. The numbers in the same row are separated by ',', and the coordinate system uses the top-left cell as the coordinate (1,1), with the horizontal coordinate under the top-left cell increasing and the vertical coordinate to the right of the top-left cell increasing.
+Using the number 11 in the top-rightmost square (0,6) as the first selected number
+-10, -13, -6, -7, 14, 5, 11
+8, 12, 10, 12, -13, 7, -11
+1, 3, 8, 3, 3, 8, -13
+-6, -9, 8, 9, -9, 14, 2
+6, 11, -14, -1, 8, 8, -2
+6, -14, 8, 12, -13, 4, -6
+3, -4, 12, -3, 8, 7, 13
+
+Return your answer with the format <<<list of selected number positions>>>, where each position is given as row column (0-based indices). For example, <<<0 3, 1 0, 2 4>>> means numbers selected are at positions (0,3), (1,0), and (2,4).

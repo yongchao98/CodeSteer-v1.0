@@ -1,0 +1,27 @@
+{
+  "initial_cards": "OCIAFPLZHDEDS",
+  "rounds": [
+    {
+      "add": "E",
+      "remove": "Z"
+    },
+    {
+      "add": "H",
+      "remove": "D"
+    },
+    {
+      "add": "K",
+      "remove": "L"
+    },
+    {
+      "add": "E",
+      "remove": "E"
+    },
+    {
+      "add": "E",
+      "remove": "S"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "UGPLEQMWQZRCA",
+  "rounds": [
+    {
+      "add": "Q",
+      "remove": "C"
+    },
+    {
+      "add": "R",
+      "remove": "P"
+    },
+    {
+      "add": "Q",
+      "remove": "A"
+    },
+    {
+      "add": "R",
+      "remove": "Q"
+    },
+    {
+      "add": "S",
+      "remove": "R"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

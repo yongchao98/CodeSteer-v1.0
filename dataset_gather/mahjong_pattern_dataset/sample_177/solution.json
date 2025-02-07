@@ -1,0 +1,27 @@
+{
+  "initial_cards": "ESFMWBQDZSFYK",
+  "rounds": [
+    {
+      "add": "Z",
+      "remove": "M"
+    },
+    {
+      "add": "Y",
+      "remove": "Q"
+    },
+    {
+      "add": "M",
+      "remove": "F"
+    },
+    {
+      "add": "X",
+      "remove": "S"
+    },
+    {
+      "add": "[",
+      "remove": "F"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

@@ -1,0 +1,15 @@
+{
+  "initial_cards": "UVCPYLZVNROME",
+  "rounds": [
+    {
+      "add": "X",
+      "remove": "L"
+    },
+    {
+      "add": "W",
+      "remove": "N"
+    }
+  ],
+  "solution": 2,
+  "complexity": 2
+}

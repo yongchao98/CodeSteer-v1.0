@@ -1,0 +1,12 @@
+Given a 9*9 Sudoku grid, each cell must be filled with a number between 1 and 9. No number may appear more than once in the same row, column, or 3*3 subgrid. Some cells are pre-filled. Please fill the remaining empty cells.
+ , ,7, , ,2, , , 
+ , , ,7, , ,1, ,5
+9, , ,3, , , ,7, 
+ ,6, , ,7, ,8, ,3
+1,5, , , ,8, , , 
+7, ,9,4, , , , ,2
+ ,2,1,8, , , , , 
+ , , , ,9, ,2, , 
+ ,9,6,2, ,7, , ,8
+
+Return your answer in the format: <<<a 9*9 matrix>>>.

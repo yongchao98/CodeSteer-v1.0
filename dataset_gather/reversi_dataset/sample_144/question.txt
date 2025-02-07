@@ -1,0 +1,21 @@
+There is a game similar to Reversi. On an n*n grid (where n is even), four pieces are placed in the center, two black and two white, arranged diagonally. Black pieces are represented by 0, white pieces by 1, and empty spaces by *.
+Rules:
+1. Two players take turns placing pieces, one playing black and the other playing white.
+2. Each player places one piece on an empty space during their turn.
+3. After placing a piece, if there are any of the opponent's pieces between two of the player's pieces (in the same row, column, or diagonal), those pieces will be flipped to the player's color. That is, 0 becomes 1, or 1 becomes 0.
+All coordinates start from the first row and first column, and the coordinate (a, b) represents the cell in the a-th row and b-th column.
+
+Given: n=4, you play black chess.
+
+The previous round of the game was: 
+****
+*10*
+*000
+**01
+
+Round 1: Your's landing position is (3,4)
+Round 2: The opponent's landing position is (4,4)
+Round 3: Your's landing position is (4,3)
+
+Please write down the game situation after this round based on the situation of the previous round.
+For example, <<<*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*>>> represents the empty grid.

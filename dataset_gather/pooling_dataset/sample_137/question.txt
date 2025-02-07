@@ -1,0 +1,8 @@
+In an N*N grid, there are N^2 numbers, with numbers in the same row separated by commas. We define the "max pooling" operation: suppose that there is an n*n (n<N) sliding window, which slides from left to right or from top to bottom in the matrix, finding the maximum value in each sliding window. Then, the maximum values are arranged according to their original positions to form a new matrix for output.
+Now, please perform max pooling on the following matrix by using a 3*3 sliding window:
+14, -5, 4, 2, -9
+10, 5, 19, 19, 10
+-2, -8, -9, 19, -2
+-9, -1, 19, 7, 1
+8, -6, 3, 14, 7
+For example, <<<0,0,0,0>>> represents a 2D array.

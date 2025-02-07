@@ -1,0 +1,27 @@
+{
+  "initial_cards": "YZHDJJOTUUXLA",
+  "rounds": [
+    {
+      "add": "Z",
+      "remove": "Y"
+    },
+    {
+      "add": "Z",
+      "remove": "Z"
+    },
+    {
+      "add": "Z",
+      "remove": "J"
+    },
+    {
+      "add": "R",
+      "remove": "A"
+    },
+    {
+      "add": "Z",
+      "remove": "U"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

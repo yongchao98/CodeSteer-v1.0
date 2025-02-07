@@ -1,0 +1,15 @@
+{
+  "initial_cards": "YQILCUCZEAXNK",
+  "rounds": [
+    {
+      "add": "H",
+      "remove": "E"
+    },
+    {
+      "add": "C",
+      "remove": "C"
+    }
+  ],
+  "solution": 1,
+  "complexity": 2
+}

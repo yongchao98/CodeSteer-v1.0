@@ -1,0 +1,24 @@
+{
+  "matrix": [
+    [
+      "C",
+      "Z"
+    ],
+    [
+      "I",
+      "U"
+    ]
+  ],
+  "solution": [
+    [
+      "I",
+      "C"
+    ],
+    [
+      "U",
+      "Z"
+    ]
+  ],
+  "formatted_solution": "I,C,U,Z",
+  "complexity": 2
+}

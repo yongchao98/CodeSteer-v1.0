@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "J",
+      "T",
+      "T"
+    ],
+    [
+      "O",
+      "B",
+      "N"
+    ],
+    [
+      "T",
+      "C",
+      "Y"
+    ]
+  ],
+  "solution": [
+    [
+      "T",
+      "O",
+      "J"
+    ],
+    [
+      "C",
+      "B",
+      "T"
+    ],
+    [
+      "Y",
+      "N",
+      "T"
+    ]
+  ],
+  "formatted_solution": "T,O,J,C,B,T,Y,N,T",
+  "complexity": 3
+}

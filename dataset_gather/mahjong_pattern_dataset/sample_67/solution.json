@@ -1,0 +1,27 @@
+{
+  "initial_cards": "ZOBGXSKIACZLV",
+  "rounds": [
+    {
+      "add": "D",
+      "remove": "Z"
+    },
+    {
+      "add": "W",
+      "remove": "Z"
+    },
+    {
+      "add": "D",
+      "remove": "A"
+    },
+    {
+      "add": "G",
+      "remove": "S"
+    },
+    {
+      "add": "D",
+      "remove": "L"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

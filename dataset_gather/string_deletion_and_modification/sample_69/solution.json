@@ -1,0 +1,21 @@
+{
+  "initial_string": "ababcaccbbbccbaabcbc",
+  "selected_rules": [
+    "If the string starts with 'bb', remove the second character.",
+    "If the string length is greater than 15, remove the middle character.",
+    "If the string ends with 'aa', replace it with 'cc'.",
+    "If the string prefix is 'bc', delete the first two characters and append 'aa' to the end.",
+    "If the string contains an even number of 'b's (and at least one 'b'), append 'ab' at the end.",
+    "If the string suffix is 'bb', delete the last two characters."
+  ],
+  "intermediate_states": [
+    "ababcaccbbbccbaabcbc",
+    "ababcaccbbccbaabcbc",
+    "ababcaccbccbaabcbc",
+    "ababcaccbcbaabcbc",
+    "ababcacccbaabcbc",
+    "ababcaccbaabcbc"
+  ],
+  "final_string": "ababcaccbaabcbc",
+  "complexity": 5
+}

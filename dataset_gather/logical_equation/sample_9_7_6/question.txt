@@ -1,0 +1,10 @@
+Calculate the number for each letter based on the range and set of inequalities that the given letter represents. There are 9 letters A, B, C, D, E, F, G, H, I, each representing one of the numbers 1, 3, 4, 9, 16, 27, 36, 80, 121. The system of inequalities is satisfied as follows:
+1. E + F = 83
+2. A - H = -112
+3. G = 4.0C
+4. B + D = 63
+5. D = 3.0A
+6. G + H = 125
+7. B - E = 33
+
+Return the answers in alphabetical order starting with A, and each element in the list represents the value of the corresponding letter. Return your answer with the format <<<list of values>>>, like <<<[1, 2, 3]>>> means that A represents 1, B represents 2, and C represents 3.

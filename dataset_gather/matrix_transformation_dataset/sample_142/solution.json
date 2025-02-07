@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "J",
+      "Q",
+      "M"
+    ],
+    [
+      "N",
+      "B",
+      "N"
+    ],
+    [
+      "A",
+      "Q",
+      "R"
+    ]
+  ],
+  "solution": [
+    [
+      "A",
+      "N",
+      "J"
+    ],
+    [
+      "Q",
+      "B",
+      "Q"
+    ],
+    [
+      "R",
+      "N",
+      "M"
+    ]
+  ],
+  "formatted_solution": "A,N,J,Q,B,Q,R,N,M",
+  "complexity": 3
+}

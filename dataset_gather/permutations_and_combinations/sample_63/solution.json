@@ -1,0 +1,22 @@
+{
+  "items": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+  ],
+  "constraints_text": "1. Book G cannot be placed in position 7.\n2. Book F must be to the left of book B.\n3. Book B must be to the right of book D.\n4. Book E cannot be placed in position 2.\n5. Book B must be to the right of book G.\n6. Book D cannot be placed in position 7.\n7. Book D must be to the left of book G.\n8. Book F must be placed in position 3.",
+  "correct_solution": [
+    "A",
+    "C",
+    "F",
+    "D",
+    "E",
+    "G",
+    "B"
+  ],
+  "complexity": 8
+}

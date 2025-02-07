@@ -1,0 +1,27 @@
+{
+  "initial_cards": "MQKRXSOAZSHMW",
+  "rounds": [
+    {
+      "add": "W",
+      "remove": "M"
+    },
+    {
+      "add": "T",
+      "remove": "H"
+    },
+    {
+      "add": "S",
+      "remove": "R"
+    },
+    {
+      "add": "S",
+      "remove": "O"
+    },
+    {
+      "add": "S",
+      "remove": "X"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

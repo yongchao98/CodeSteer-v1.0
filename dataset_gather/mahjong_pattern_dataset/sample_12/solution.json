@@ -1,0 +1,19 @@
+{
+  "initial_cards": "RNMKZVUXGWFZD",
+  "rounds": [
+    {
+      "add": "B",
+      "remove": "K"
+    },
+    {
+      "add": "W",
+      "remove": "U"
+    },
+    {
+      "add": "Y",
+      "remove": "M"
+    }
+  ],
+  "solution": 2,
+  "complexity": 3
+}

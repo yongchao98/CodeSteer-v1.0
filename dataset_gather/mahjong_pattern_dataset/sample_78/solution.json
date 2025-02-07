@@ -1,0 +1,27 @@
+{
+  "initial_cards": "TRSQOSEPUIHXD",
+  "rounds": [
+    {
+      "add": "L",
+      "remove": "T"
+    },
+    {
+      "add": "G",
+      "remove": "R"
+    },
+    {
+      "add": "T",
+      "remove": "D"
+    },
+    {
+      "add": "J",
+      "remove": "P"
+    },
+    {
+      "add": "U",
+      "remove": "O"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

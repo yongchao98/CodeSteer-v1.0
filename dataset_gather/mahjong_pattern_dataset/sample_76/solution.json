@@ -1,0 +1,27 @@
+{
+  "initial_cards": "IKTNTHZGBSFRF",
+  "rounds": [
+    {
+      "add": "F",
+      "remove": "S"
+    },
+    {
+      "add": "F",
+      "remove": "F"
+    },
+    {
+      "add": "F",
+      "remove": "F"
+    },
+    {
+      "add": "T",
+      "remove": "H"
+    },
+    {
+      "add": "A",
+      "remove": "T"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

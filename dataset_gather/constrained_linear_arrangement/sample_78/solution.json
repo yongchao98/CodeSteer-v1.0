@@ -1,0 +1,25 @@
+{
+  "game_type": "elements",
+  "player_moves": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "solution": [
+    "A",
+    "E",
+    "B",
+    "D",
+    "C"
+  ],
+  "results": [
+    "draw",
+    "draw",
+    "draw",
+    "draw",
+    "draw"
+  ],
+  "complexity": 5
+}

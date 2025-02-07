@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "F",
+      "K",
+      "I"
+    ],
+    [
+      "F",
+      "Q",
+      "Y"
+    ],
+    [
+      "C",
+      "I",
+      "E"
+    ]
+  ],
+  "solution": [
+    [
+      "C",
+      "F",
+      "F"
+    ],
+    [
+      "I",
+      "Q",
+      "K"
+    ],
+    [
+      "E",
+      "Y",
+      "I"
+    ]
+  ],
+  "formatted_solution": "C,F,F,I,Q,K,E,Y,I",
+  "complexity": 3
+}

@@ -1,0 +1,28 @@
+{
+  "initial_string": "caccbccaacccaaacbb",
+  "selected_rules": [
+    "If the string length is greater than 15, remove the middle character.",
+    "If the string contains 'abc', replace the first occurrence with 'cab'.",
+    "If the string prefix is 'ca', replace it with 'bb' and append 'c' to the end.",
+    "If the string suffix is 'cc', replace it with 'b' and prepend 'a' to the start.",
+    "If the string contains 'acb', replace the first occurrence with its reverse ('bca').",
+    "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character."
+  ],
+  "intermediate_states": [
+    "caccbccaacccaaacbb",
+    "caccbccaaccaaacbb",
+    "caccbccaccaaacbb",
+    "caccbccacaaacbb",
+    "bbccbccacaaacbbc",
+    "bbccbccaaaacbbc",
+    "bbccbccaaabcabc",
+    "bbccbccaacababc",
+    "bbccbccaacabcab",
+    "bbccbccaaccabab",
+    "bbccbcaccabab",
+    "bbccbccabab",
+    "bbccbcbab"
+  ],
+  "final_string": "bbccbcbab",
+  "complexity": 5
+}

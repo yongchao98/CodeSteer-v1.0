@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "Z",
+      "P",
+      "E"
+    ],
+    [
+      "Z",
+      "T",
+      "V"
+    ],
+    [
+      "G",
+      "I",
+      "V"
+    ]
+  ],
+  "solution": [
+    [
+      "G",
+      "Z",
+      "Z"
+    ],
+    [
+      "I",
+      "T",
+      "P"
+    ],
+    [
+      "V",
+      "V",
+      "E"
+    ]
+  ],
+  "formatted_solution": "G,Z,Z,I,T,P,V,V,E",
+  "complexity": 3
+}

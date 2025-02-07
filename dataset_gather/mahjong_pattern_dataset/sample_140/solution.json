@@ -1,0 +1,27 @@
+{
+  "initial_cards": "MCTPQEQSWNLUI",
+  "rounds": [
+    {
+      "add": "M",
+      "remove": "N"
+    },
+    {
+      "add": "V",
+      "remove": "E"
+    },
+    {
+      "add": "Q",
+      "remove": "S"
+    },
+    {
+      "add": "X",
+      "remove": "U"
+    },
+    {
+      "add": "Y",
+      "remove": "X"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

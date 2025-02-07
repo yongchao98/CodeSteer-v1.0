@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "M",
+      "G",
+      "K"
+    ],
+    [
+      "N",
+      "H",
+      "H"
+    ],
+    [
+      "E",
+      "I",
+      "Z"
+    ]
+  ],
+  "solution": [
+    [
+      "E",
+      "N",
+      "M"
+    ],
+    [
+      "I",
+      "H",
+      "G"
+    ],
+    [
+      "Z",
+      "H",
+      "K"
+    ]
+  ],
+  "formatted_solution": "E,N,M,I,H,G,Z,H,K",
+  "complexity": 3
+}

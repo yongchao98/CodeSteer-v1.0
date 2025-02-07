@@ -1,0 +1,27 @@
+{
+  "initial_cards": "HAHPSQTMLCDXB",
+  "rounds": [
+    {
+      "add": "D",
+      "remove": "D"
+    },
+    {
+      "add": "L",
+      "remove": "Q"
+    },
+    {
+      "add": "W",
+      "remove": "A"
+    },
+    {
+      "add": "D",
+      "remove": "C"
+    },
+    {
+      "add": "L",
+      "remove": "T"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

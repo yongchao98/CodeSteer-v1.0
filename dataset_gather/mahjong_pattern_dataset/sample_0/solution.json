@@ -1,0 +1,11 @@
+{
+  "initial_cards": "QPDLJYCRXBSHN",
+  "rounds": [
+    {
+      "add": "Y",
+      "remove": "Y"
+    }
+  ],
+  "solution": 0,
+  "complexity": 1
+}

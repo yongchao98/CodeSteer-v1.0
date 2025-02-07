@@ -1,0 +1,12 @@
+Given an 8*8 grid, cells marked with 1 have a queen placed, and cells marked with 0 are empty. A total of eight queens need to be placed such that no two queens can attack each other, meaning no two queens can be in the same row, column, or diagonal. Additionally, positions marked with X are not allowed for placing queens. Please help me complete the placement of the remaining queens on the partially filled board.
+
+00000000
+00000000
+00000000
+000000X0
+00000000
+0000X000
+0100XX00
+00000010
+
+Return your answer with the format <<<list of queen positions>>>, where each position is given as row column (0-based indices). For example, <<<0 3, 1 0, 2 4>>> means queens are placed at positions (0,3), (1,0), and (2,4).

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "AFPIATNEWHFXM",
+  "rounds": [
+    {
+      "add": "I",
+      "remove": "F"
+    },
+    {
+      "add": "Y",
+      "remove": "A"
+    },
+    {
+      "add": "E",
+      "remove": "F"
+    },
+    {
+      "add": "Y",
+      "remove": "P"
+    },
+    {
+      "add": "H",
+      "remove": "E"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

@@ -1,0 +1,6 @@
+Given a 2*2 grid where each cell contains a number (between 1 to 3), you must select 3 different numbers from these cells. The sum of the selected numbers in each row and each column should be less than or equal to 4. The numbers in the same row are separated by ',', and the coordinate system uses the top-left cell as the coordinate (1,1), with the horizontal coordinate under the top-left cell increasing and the vertical coordinate to the right of the top-left cell increasing.
+Using the number 3 in the top-rightmost square (0,1) as the first selected number
+1, 3
+3, 2
+
+Return your answer with the format <<<list of selected number positions>>>, where each position is given as row column (0-based indices). For example, <<<0 3, 1 0, 2 4>>> means numbers selected are at positions (0,3), (1,0), and (2,4).

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "ARKRIGLHZQMWU",
+  "rounds": [
+    {
+      "add": "R",
+      "remove": "M"
+    },
+    {
+      "add": "I",
+      "remove": "R"
+    },
+    {
+      "add": "I",
+      "remove": "H"
+    },
+    {
+      "add": "B",
+      "remove": "G"
+    },
+    {
+      "add": "Q",
+      "remove": "A"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

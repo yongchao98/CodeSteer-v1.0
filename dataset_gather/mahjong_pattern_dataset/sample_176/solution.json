@@ -1,0 +1,27 @@
+{
+  "initial_cards": "LGZIAENAMTUPX",
+  "rounds": [
+    {
+      "add": "Q",
+      "remove": "A"
+    },
+    {
+      "add": "V",
+      "remove": "P"
+    },
+    {
+      "add": "I",
+      "remove": "Z"
+    },
+    {
+      "add": "P",
+      "remove": "V"
+    },
+    {
+      "add": "C",
+      "remove": "N"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

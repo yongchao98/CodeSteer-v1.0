@@ -1,0 +1,22 @@
+{
+  "initial_string": "babaacaababbcabca",
+  "selected_rules": [
+    "If the string suffix is 'ac', replace it with 'cb'.",
+    "If the string length is greater than 15, remove the middle character.",
+    "If the string prefix is 'ca', replace it with 'bb' and append 'c' to the end.",
+    "If the string contains an even number of 'b's (and at least one 'b'), append 'ab' at the end.",
+    "If the string contains 'bca', delete the first occurrence entirely.",
+    "If the string ends with 'ca', remove the last character."
+  ],
+  "intermediate_states": [
+    "babaacaababbcabca",
+    "babaacaaabbcabca",
+    "babaacaabbcabca",
+    "babaacaabbca",
+    "babaacaabbcaab",
+    "babaacaabab",
+    "babaacaababab"
+  ],
+  "final_string": "babaacaababab",
+  "complexity": 5
+}

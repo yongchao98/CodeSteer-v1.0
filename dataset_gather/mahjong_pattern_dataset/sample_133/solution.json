@@ -1,0 +1,27 @@
+{
+  "initial_cards": "RUZJYLIEBCIDA",
+  "rounds": [
+    {
+      "add": "C",
+      "remove": "R"
+    },
+    {
+      "add": "C",
+      "remove": "I"
+    },
+    {
+      "add": "C",
+      "remove": "C"
+    },
+    {
+      "add": "[",
+      "remove": "L"
+    },
+    {
+      "add": "C",
+      "remove": "Z"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "FBYRDNDOCTHXL",
+  "rounds": [
+    {
+      "add": "W",
+      "remove": "F"
+    },
+    {
+      "add": "D",
+      "remove": "X"
+    },
+    {
+      "add": "B",
+      "remove": "L"
+    },
+    {
+      "add": "D",
+      "remove": "R"
+    },
+    {
+      "add": "Y",
+      "remove": "Y"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

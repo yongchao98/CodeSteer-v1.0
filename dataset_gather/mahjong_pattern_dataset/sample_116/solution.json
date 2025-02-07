@@ -1,0 +1,23 @@
+{
+  "initial_cards": "AHOVEFEICTMXG",
+  "rounds": [
+    {
+      "add": "B",
+      "remove": "C"
+    },
+    {
+      "add": "U",
+      "remove": "F"
+    },
+    {
+      "add": "C",
+      "remove": "E"
+    },
+    {
+      "add": "D",
+      "remove": "C"
+    }
+  ],
+  "solution": 2,
+  "complexity": 4
+}

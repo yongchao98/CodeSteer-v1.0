@@ -1,0 +1,27 @@
+{
+  "initial_cards": "VFGJVKQKLDPTH",
+  "rounds": [
+    {
+      "add": "V",
+      "remove": "V"
+    },
+    {
+      "add": "K",
+      "remove": "K"
+    },
+    {
+      "add": "L",
+      "remove": "V"
+    },
+    {
+      "add": "L",
+      "remove": "H"
+    },
+    {
+      "add": "R",
+      "remove": "T"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

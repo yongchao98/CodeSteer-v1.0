@@ -1,0 +1,27 @@
+{
+  "initial_cards": "OUFAEYRCKZYJW",
+  "rounds": [
+    {
+      "add": "E",
+      "remove": "J"
+    },
+    {
+      "add": "M",
+      "remove": "Z"
+    },
+    {
+      "add": "G",
+      "remove": "C"
+    },
+    {
+      "add": "E",
+      "remove": "Y"
+    },
+    {
+      "add": "B",
+      "remove": "R"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

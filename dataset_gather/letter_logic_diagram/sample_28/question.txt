@@ -1,0 +1,23 @@
+Given a 7x7 grid of letters {a..g}, some cells are pre-filled. Fill the rest so that:
+1) Each row has exactly one of each letter {a..g}.
+2) Each column has exactly one of each letter {a..g}.
+3) All cells on the minor diagonal (top-right to bottom-left) contain the same letter.
+
+Here is the puzzle (each row on its own line, cells separated by commas, empty cells blank):
+
+g,,,c,,,d
+,b,,e,,d,
+b,,e,f,d,,a
+c,e,f,,,a,b
+e,f,d,g,a,b,
+f,,,a,b,,
+,g,a,b,,,f
+
+Return the answer with the format:
+<<<
+row1
+row2
+...  (7 rows total)
+>>>
+
+where each row has 7 letters separated by commas.

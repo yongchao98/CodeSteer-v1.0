@@ -1,0 +1,23 @@
+{
+  "initial_cards": "GMITTHQAFWDSC",
+  "rounds": [
+    {
+      "add": "I",
+      "remove": "M"
+    },
+    {
+      "add": "R",
+      "remove": "S"
+    },
+    {
+      "add": "T",
+      "remove": "C"
+    },
+    {
+      "add": "Q",
+      "remove": "F"
+    }
+  ],
+  "solution": 0,
+  "complexity": 4
+}

@@ -1,0 +1,19 @@
+{
+  "game_type": "animal",
+  "player_moves": [
+    "D",
+    "A",
+    "C"
+  ],
+  "solution": [
+    "C",
+    "E",
+    "A"
+  ],
+  "results": [
+    "loss",
+    "win",
+    "loss"
+  ],
+  "complexity": 4
+}

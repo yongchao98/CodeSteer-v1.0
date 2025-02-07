@@ -1,0 +1,18 @@
+{
+  "A_count": 3,
+  "B_count": 2,
+  "C_count": 7,
+  "final_counts": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0
+  ],
+  "complexity": 3,
+  "solution_string": "<<<1 0 1 0 0 0 2 2 0>>>"
+}

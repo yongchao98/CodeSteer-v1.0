@@ -1,0 +1,27 @@
+{
+  "initial_cards": "SFTAMHYELIZQA",
+  "rounds": [
+    {
+      "add": "U",
+      "remove": "Y"
+    },
+    {
+      "add": "C",
+      "remove": "H"
+    },
+    {
+      "add": "U",
+      "remove": "L"
+    },
+    {
+      "add": "V",
+      "remove": "S"
+    },
+    {
+      "add": "K",
+      "remove": "A"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

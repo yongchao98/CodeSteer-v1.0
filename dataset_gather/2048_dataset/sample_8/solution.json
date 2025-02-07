@@ -1,0 +1,19 @@
+{
+  "grid": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "moves": "dr",
+  "start_pos": [
+    0,
+    1
+  ],
+  "solution": "0, 0\n0, 8",
+  "complexity": 1
+}

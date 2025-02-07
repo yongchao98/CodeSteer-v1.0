@@ -1,0 +1,18 @@
+Xiao Wang is a librarian responsible for shelving 9 books labeled A, B, C, D, E, F, G, H, I on a shelf with positions 1 to 9.
+
+The constraints are:
+1. Book B must be to the left of book E.
+2. Book C cannot be placed in position 1.
+3. Book B must be adjacent to book G.
+4. Book F cannot be placed in position 5.
+5. Book E must be placed in position 9.
+6. Book A must be adjacent to book H.
+7. Book E must be adjacent to book C.
+8. Book F must be to the right of book G.
+9. Book G must be placed in position 1.
+10. Book F must be to the left of book D.
+
+Question:
+Based on the above conditions, please arrange the 9 books from left to right on the bookshelf, i.e. positions 1 through 9. Return your answer with the format <<< a list of strings >>>, one solution is enough.for example:
+<<<["A", "B", "C"]>>>
+Your answer:

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "TSZVJSKHGBNPL",
+  "rounds": [
+    {
+      "add": "S",
+      "remove": "S"
+    },
+    {
+      "add": "L",
+      "remove": "N"
+    },
+    {
+      "add": "S",
+      "remove": "L"
+    },
+    {
+      "add": "U",
+      "remove": "S"
+    },
+    {
+      "add": "S",
+      "remove": "H"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

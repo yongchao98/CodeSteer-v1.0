@@ -1,0 +1,23 @@
+{
+  "initial_string": "cbaacbcabaacb",
+  "selected_rules": [
+    "If the string contains an even number of 'b's (and at least one 'b'), append 'ab' at the end.",
+    "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character.",
+    "If the string starts with 'cc', remove the first two characters.",
+    "If the string starts with 'ac', replace the first two characters with 'zz'.",
+    "If the string prefix is 'aa', remove the first character.",
+    "If the string prefix is 'cb', replace it with 'aa' and delete the last character."
+  ],
+  "intermediate_states": [
+    "cbaacbcabaacb",
+    "cbaacbcabaacbab",
+    "cbaacbbaacbab",
+    "aaaacbbaacba",
+    "aaacbbaacba",
+    "aacbbaacba",
+    "acbbaacba",
+    "zzbbaacba"
+  ],
+  "final_string": "zzbbaacba",
+  "complexity": 5
+}

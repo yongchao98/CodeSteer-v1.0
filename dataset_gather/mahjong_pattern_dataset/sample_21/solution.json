@@ -1,0 +1,27 @@
+{
+  "initial_cards": "AIFPSFSLWOCQO",
+  "rounds": [
+    {
+      "add": "E",
+      "remove": "S"
+    },
+    {
+      "add": "M",
+      "remove": "E"
+    },
+    {
+      "add": "W",
+      "remove": "O"
+    },
+    {
+      "add": "W",
+      "remove": "Q"
+    },
+    {
+      "add": "W",
+      "remove": "F"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "XDMTLKZWUJWHR",
+  "rounds": [
+    {
+      "add": "W",
+      "remove": "L"
+    },
+    {
+      "add": "Y",
+      "remove": "W"
+    },
+    {
+      "add": "P",
+      "remove": "J"
+    },
+    {
+      "add": "X",
+      "remove": "W"
+    },
+    {
+      "add": "V",
+      "remove": "Y"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

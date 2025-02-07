@@ -1,0 +1,27 @@
+{
+  "initial_cards": "DSUWBGNCFILGK",
+  "rounds": [
+    {
+      "add": "E",
+      "remove": "N"
+    },
+    {
+      "add": "L",
+      "remove": "F"
+    },
+    {
+      "add": "G",
+      "remove": "K"
+    },
+    {
+      "add": "G",
+      "remove": "U"
+    },
+    {
+      "add": "D",
+      "remove": "G"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

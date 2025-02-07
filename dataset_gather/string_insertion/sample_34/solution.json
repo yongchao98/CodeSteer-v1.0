@@ -1,0 +1,5 @@
+{
+  "original_string": "ABCDCABCDACDEA",
+  "modified_string": "ABCDACABCDAACDEAC",
+  "complexity": 5
+}

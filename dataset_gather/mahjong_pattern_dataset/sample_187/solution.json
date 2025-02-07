@@ -1,0 +1,27 @@
+{
+  "initial_cards": "ZMNEHRLCVVPFJ",
+  "rounds": [
+    {
+      "add": "Q",
+      "remove": "H"
+    },
+    {
+      "add": "V",
+      "remove": "F"
+    },
+    {
+      "add": "Q",
+      "remove": "R"
+    },
+    {
+      "add": "R",
+      "remove": "V"
+    },
+    {
+      "add": "K",
+      "remove": "Z"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

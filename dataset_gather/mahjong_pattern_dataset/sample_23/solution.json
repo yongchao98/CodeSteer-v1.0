@@ -1,0 +1,27 @@
+{
+  "initial_cards": "PIZAUNOEWLWFQ",
+  "rounds": [
+    {
+      "add": "R",
+      "remove": "F"
+    },
+    {
+      "add": "R",
+      "remove": "I"
+    },
+    {
+      "add": "L",
+      "remove": "N"
+    },
+    {
+      "add": "S",
+      "remove": "L"
+    },
+    {
+      "add": "S",
+      "remove": "R"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

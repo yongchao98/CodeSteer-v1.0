@@ -1,0 +1,7 @@
+{
+  "solution": 60.0,
+  "complexity": 2,
+  "operator_definitions": {
+    "@": "2*a+2*b"
+  }
+}

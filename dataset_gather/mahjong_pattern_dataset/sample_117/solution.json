@@ -1,0 +1,23 @@
+{
+  "initial_cards": "YVNCQXSKGLVBF",
+  "rounds": [
+    {
+      "add": "I",
+      "remove": "B"
+    },
+    {
+      "add": "Z",
+      "remove": "Y"
+    },
+    {
+      "add": "S",
+      "remove": "L"
+    },
+    {
+      "add": "G",
+      "remove": "F"
+    }
+  ],
+  "solution": 0,
+  "complexity": 4
+}

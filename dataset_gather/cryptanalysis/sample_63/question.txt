@@ -1,0 +1,15 @@
+Please deduce the correct password based on the following 12 known conditions:
+A certain combination lock consists of two numbers and two letters, with neither the numbers nor the letters repeating.
+1. Guess: 38UW, Feedback: one number is correct but in the wrong position; one number is incorrect and too large; both letters are incorrect and too late in the alphabet.
+2. Guess: 69OG, Feedback: one number is correct and in the correct position; one number is incorrect and too large; one letter is correct and in the correct position; one letter is incorrect and too early in the alphabet.
+3. Guess: 83OP, Feedback: one number is correct and in the correct position; one number is incorrect and too large; one letter is correct and in the correct position; one letter is incorrect and incorrect.
+4. Guess: 48SP, Feedback: both numbers are incorrect; both letters are incorrect.
+5. Guess: 42ZE, Feedback: both numbers are incorrect; both letters are incorrect.
+6. Guess: 01WG, Feedback: both numbers are incorrect and too small; both letters are incorrect.
+7. Guess: 07JX, Feedback: both numbers are incorrect; both letters are incorrect.
+8. Guess: 31HK, Feedback: one number is correct but in the wrong position; one number is incorrect and too small; both letters are incorrect and too early in the alphabet.
+9. Guess: 37VY, Feedback: one number is correct but in the wrong position; one number is incorrect and too large; both letters are incorrect and too late in the alphabet.
+10. Guess: 62QH, Feedback: one number is correct and in the correct position; one number is incorrect and too small; both letters are incorrect.
+11. Guess: 94CL, Feedback: both numbers are incorrect; both letters are incorrect and too early in the alphabet.
+12. Guess: 71TE, Feedback: both numbers are incorrect; one letter is correct but in the wrong position; one letter is incorrect and too early in the alphabet.
+Please provide your answer in the format <<< ["X", "Y", "Z", "W"] >>> where X and Y are the numbers and Z and W are the letters of the password.

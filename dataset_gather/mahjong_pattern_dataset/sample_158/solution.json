@@ -1,0 +1,27 @@
+{
+  "initial_cards": "EOAOFEXSVKZIN",
+  "rounds": [
+    {
+      "add": "O",
+      "remove": "O"
+    },
+    {
+      "add": "O",
+      "remove": "X"
+    },
+    {
+      "add": "O",
+      "remove": "N"
+    },
+    {
+      "add": "O",
+      "remove": "Z"
+    },
+    {
+      "add": "O",
+      "remove": "V"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

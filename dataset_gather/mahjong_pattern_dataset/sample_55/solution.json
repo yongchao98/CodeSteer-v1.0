@@ -1,0 +1,27 @@
+{
+  "initial_cards": "PARMYQEXCGSRN",
+  "rounds": [
+    {
+      "add": "I",
+      "remove": "Y"
+    },
+    {
+      "add": "Q",
+      "remove": "R"
+    },
+    {
+      "add": "R",
+      "remove": "R"
+    },
+    {
+      "add": "N",
+      "remove": "I"
+    },
+    {
+      "add": "G",
+      "remove": "N"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

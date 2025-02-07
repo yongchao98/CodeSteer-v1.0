@@ -1,0 +1,27 @@
+{
+  "initial_cards": "NDMMGOARIIQEZ",
+  "rounds": [
+    {
+      "add": "I",
+      "remove": "I"
+    },
+    {
+      "add": "I",
+      "remove": "M"
+    },
+    {
+      "add": "P",
+      "remove": "D"
+    },
+    {
+      "add": "O",
+      "remove": "A"
+    },
+    {
+      "add": "S",
+      "remove": "I"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

@@ -1,0 +1,22 @@
+{
+  "initial_string": "cacccaacaaaaa",
+  "selected_rules": [
+    "If the string contains 'acb', replace the first occurrence with its reverse ('bca').",
+    "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character.",
+    "If the string prefix is 'ca', replace it with 'bb' and append 'c' to the end.",
+    "If the string contains 'bca', delete the first occurrence entirely.",
+    "If the string ends with 'ba', replace it with 'ab'.",
+    "If the string starts with 'bb', remove the second character."
+  ],
+  "intermediate_states": [
+    "cacccaacaaaaa",
+    "caccacaaaaa",
+    "caccaaaaa",
+    "cacaaaa",
+    "caaaa",
+    "bbaaac",
+    "baaac"
+  ],
+  "final_string": "baaac",
+  "complexity": 5
+}

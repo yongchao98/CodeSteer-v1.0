@@ -1,0 +1,15 @@
+{
+  "initial_cards": "NNTMOFBJDEGAO",
+  "rounds": [
+    {
+      "add": "N",
+      "remove": "T"
+    },
+    {
+      "add": "O",
+      "remove": "N"
+    }
+  ],
+  "solution": 1,
+  "complexity": 2
+}

@@ -1,0 +1,20 @@
+{
+  "initial_string": "acccbbaaaacacacbbcba",
+  "selected_rules": [
+    "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character.",
+    "If the string prefix is 'ca', replace it with 'bb' and append 'c' to the end.",
+    "If the string contains 'abc', replace the first occurrence with 'cab'.",
+    "If the string suffix is 'ac', replace it with 'cb'.",
+    "If the string ends with 'ba', replace it with 'ab'.",
+    "If the string starts with 'cc', remove the first two characters."
+  ],
+  "intermediate_states": [
+    "acccbbaaaacacacbbcba",
+    "acccbbaaaacacbbcba",
+    "acccbbaaaacbbcba",
+    "acccbbaaaacbbcab",
+    "acccbbaaaacbbb"
+  ],
+  "final_string": "acccbbaaaacbbb",
+  "complexity": 4
+}

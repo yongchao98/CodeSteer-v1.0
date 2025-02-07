@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "W",
+      "V",
+      "Z"
+    ],
+    [
+      "P",
+      "P",
+      "X"
+    ],
+    [
+      "O",
+      "J",
+      "V"
+    ]
+  ],
+  "solution": [
+    [
+      "O",
+      "P",
+      "W"
+    ],
+    [
+      "J",
+      "P",
+      "V"
+    ],
+    [
+      "V",
+      "X",
+      "Z"
+    ]
+  ],
+  "formatted_solution": "O,P,W,J,P,V,V,X,Z",
+  "complexity": 3
+}

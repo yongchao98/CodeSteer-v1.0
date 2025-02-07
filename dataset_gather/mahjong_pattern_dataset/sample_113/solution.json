@@ -1,0 +1,19 @@
+{
+  "initial_cards": "EFGJMNUWHHDRQ",
+  "rounds": [
+    {
+      "add": "F",
+      "remove": "J"
+    },
+    {
+      "add": "C",
+      "remove": "M"
+    },
+    {
+      "add": "F",
+      "remove": "Q"
+    }
+  ],
+  "solution": 1,
+  "complexity": 3
+}

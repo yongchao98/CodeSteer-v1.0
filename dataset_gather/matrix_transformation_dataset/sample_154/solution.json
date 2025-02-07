@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "C",
+      "W",
+      "T"
+    ],
+    [
+      "S",
+      "G",
+      "H"
+    ],
+    [
+      "B",
+      "P",
+      "P"
+    ]
+  ],
+  "solution": [
+    [
+      "B",
+      "S",
+      "C"
+    ],
+    [
+      "P",
+      "G",
+      "W"
+    ],
+    [
+      "P",
+      "H",
+      "T"
+    ]
+  ],
+  "formatted_solution": "B,S,C,P,G,W,P,H,T",
+  "complexity": 3
+}

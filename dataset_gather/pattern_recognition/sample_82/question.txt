@@ -1,0 +1,14 @@
+Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.
+
+If the matrix is
+
+P S K Y A O X B H C
+T Y Z V T M K X A T
+D P R O Z K K K Y J
+R X K W M K K K N G
+B V B T D K K K K I
+B M I D X M P E A K
+
+Please provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  
+
+Your answer should be in the format <<<[row, column]>>>.

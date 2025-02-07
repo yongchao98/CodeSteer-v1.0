@@ -1,0 +1,3 @@
+Let a and b be numbers. Define a%b to be 4*a+4*b.
+Calculate (4%5)%7.
+Return your answer with format <<<list of values and symbols>>>

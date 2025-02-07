@@ -1,0 +1,21 @@
+{
+  "initial_string": "cacbaaabcac",
+  "selected_rules": [
+    "If the string length is greater than 15, remove the middle character.",
+    "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character.",
+    "If the string ends with 'ba', replace it with 'ab'.",
+    "If the string contains 'abc', replace the first occurrence with 'cab'.",
+    "If the string contains 'acb', replace the first occurrence with its reverse ('bca').",
+    "If the string starts with 'cc', remove the first two characters."
+  ],
+  "intermediate_states": [
+    "cacbaaabcac",
+    "cacbaaabc",
+    "cacbaacab",
+    "cacbaab",
+    "cbcaaab",
+    "cbaab"
+  ],
+  "final_string": "cbaab",
+  "complexity": 5
+}

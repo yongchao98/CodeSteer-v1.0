@@ -1,0 +1,24 @@
+{
+  "matrix": [
+    [
+      "V",
+      "O"
+    ],
+    [
+      "P",
+      "S"
+    ]
+  ],
+  "solution": [
+    [
+      "P",
+      "V"
+    ],
+    [
+      "S",
+      "O"
+    ]
+  ],
+  "formatted_solution": "P,V,S,O",
+  "complexity": 2
+}

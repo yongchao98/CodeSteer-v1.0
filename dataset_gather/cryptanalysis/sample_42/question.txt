@@ -1,0 +1,9 @@
+Please deduce the correct password based on the following 6 known conditions:
+A certain combination lock consists of two numbers and two letters, with neither the numbers nor the letters repeating.
+1. Guess: 49EK, Feedback: both numbers are incorrect; both letters are incorrect and too early in the alphabet.
+2. Guess: 03KE, Feedback: both numbers are incorrect; both letters are incorrect and too early in the alphabet.
+3. Guess: 05OP, Feedback: both numbers are incorrect; both letters are incorrect and too early in the alphabet.
+4. Guess: 28JC, Feedback: one number is correct but in the wrong position; one number is incorrect and too large; both letters are incorrect and too early in the alphabet.
+5. Guess: 98XJ, Feedback: both numbers are incorrect and too large; one letter is correct but in the wrong position; one letter is incorrect and too early in the alphabet.
+6. Guess: 37XW, Feedback: both numbers are incorrect; both letters are correct but in the wrong positions.
+Please provide your answer in the format <<< ["X", "Y", "Z", "W"] >>> where X and Y are the numbers and Z and W are the letters of the password.

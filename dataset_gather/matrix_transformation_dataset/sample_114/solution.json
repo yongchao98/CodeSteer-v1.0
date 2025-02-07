@@ -1,0 +1,24 @@
+{
+  "matrix": [
+    [
+      "V",
+      "G"
+    ],
+    [
+      "H",
+      "Z"
+    ]
+  ],
+  "solution": [
+    [
+      "H",
+      "V"
+    ],
+    [
+      "Z",
+      "G"
+    ]
+  ],
+  "formatted_solution": "H,V,Z,G",
+  "complexity": 2
+}

@@ -1,0 +1,11 @@
+{
+  "initial_cards": "PFVYBJBNLYUCT",
+  "rounds": [
+    {
+      "add": "T",
+      "remove": "U"
+    }
+  ],
+  "solution": 2,
+  "complexity": 1
+}

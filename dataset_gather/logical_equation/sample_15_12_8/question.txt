@@ -1,0 +1,15 @@
+Calculate the number for each letter based on the range and set of inequalities that the given letter represents. There are 15 letters A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, each representing one of the numbers 2, 3, 5, 7, 10, 15, 16, 24, 28, 36, 45, 50, 78, 90, 100. The system of inequalities is satisfied as follows:
+1. B - N = 25
+2. A + C = 12
+3. D = 1.6J
+4. K - L = 54
+5. J = 2.0C
+6. M = 3.0C
+7. B + C = 33
+8. A = 1.4C
+9. C + D = 21
+10. A + G = 9
+11. A + J = 17
+12. L = 3.6J
+
+Return the answers in alphabetical order starting with A, and each element in the list represents the value of the corresponding letter. Return your answer with the format <<<list of values>>>, like <<<[1, 2, 3]>>> means that A represents 1, B represents 2, and C represents 3.

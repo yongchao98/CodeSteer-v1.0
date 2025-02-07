@@ -1,0 +1,23 @@
+{
+  "initial_cards": "SHDIEWCZFUPEO",
+  "rounds": [
+    {
+      "add": "C",
+      "remove": "U"
+    },
+    {
+      "add": "J",
+      "remove": "H"
+    },
+    {
+      "add": "F",
+      "remove": "E"
+    },
+    {
+      "add": "Y",
+      "remove": "I"
+    }
+  ],
+  "solution": 0,
+  "complexity": 4
+}

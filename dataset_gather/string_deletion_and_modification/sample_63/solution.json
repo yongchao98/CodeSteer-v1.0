@@ -1,0 +1,20 @@
+{
+  "initial_string": "bcbaacacacab",
+  "selected_rules": [
+    "If the string contains 'abc', replace the first occurrence with 'cab'.",
+    "If the string prefix is 'aa', remove the first character.",
+    "If the string length is greater than 15, remove the middle character.",
+    "If the string ends with 'aa', replace it with 'cc'.",
+    "If the string prefix is 'ca', replace it with 'bb' and append 'c' to the end.",
+    "If the string prefix is 'bc', delete the first two characters and append 'aa' to the end."
+  ],
+  "intermediate_states": [
+    "bcbaacacacab",
+    "baacacacabaa",
+    "baacacacabcc",
+    "baacacaccabc",
+    "baacacacccab"
+  ],
+  "final_string": "baacacacccab",
+  "complexity": 4
+}

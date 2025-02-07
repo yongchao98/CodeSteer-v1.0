@@ -1,0 +1,27 @@
+{
+  "initial_cards": "WJLSUCDXZBTPT",
+  "rounds": [
+    {
+      "add": "A",
+      "remove": "L"
+    },
+    {
+      "add": "O",
+      "remove": "Z"
+    },
+    {
+      "add": "T",
+      "remove": "S"
+    },
+    {
+      "add": "D",
+      "remove": "T"
+    },
+    {
+      "add": "T",
+      "remove": "T"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}
