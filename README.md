@@ -1,9 +1,9 @@
 # CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
 <img src="./Figures/Tag.png" width="800px" alt="s" />
-[Huggingface🤗](https://huggingface.co/yongchao98/CodeSteer-v1)
 
 ## Framework
-
+[Huggingface🤗](https://huggingface.co/yongchao98/CodeSteer-v1)
+[Yongchao Chen](https://yongchao98.github.io/YongchaoChen/)
 <img src="./Figures/CodeSteer-intro.png" width="800px" alt="s" />
 
 <p align="center" style="font-size: 16px;">
