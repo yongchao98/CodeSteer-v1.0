@@ -1,5 +1,6 @@
 # CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
 <img src="./Figures/Tag.png" width="800px" alt="s" />
+[![Spaces](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/hiyouga/LLaMA-Board)
 
 ## Framework
 
@@ -12,17 +13,16 @@ Figure: CodeSteer on guiding LLM code/text generation to integrate symbolic comp
 ### Inspirations
 <img src="./Figures/LLM-makes-simple-mistakes-gather.png" width="800px" alt="s" />
 <p align="center" style="font-size: 16px;">
-Figure: For many tasks, symbolic computing via coding is much simpler than direct textual reasoning.
+Figure: The cases that GPT-4o makes simple mistakes by direct textual reasoning but can reliably solve the problem with prompted to use code.
 </p>
 
 
 ## Performance
-
-We compare GPT-4o + CodeSteer with OpenAI o1 and DeepSeek R1 on SymBench, with 28 seen tasks and 9 unseen tasks.
+We compare GPT-4o + CodeSteer with OpenAI o1 and DeepSeek R1 on SymBench, with 28 seen tasks and 9 unseen tasks. GPT-4o + CodeSteer surpasses o1 (82.7), R1 (76.8), and o1-preview (74.8), highlighting the importance of integrating symbolic computing into LLMs.
 
 <img src="./Figures/Table-results.png" width="800px" alt="s" />
 
-The cost of tokens and runtimes for each method are as follows.
+The cost of tokens and runtimes for each method are as follows. GPT-4o + CodeSteer costs less tokens and runtimes than o1 and R1.
 <img src="./Figures/Cost-token-runtime.png" width="800px" alt="s" />
 
 ## Environment Setup
@@ -128,7 +128,7 @@ bash ./train.sh # more arguments in this file
 
 ## Feedback
 
-We welcome all sorts of feedback! Please just raise an issue, no matter if it's any bugs you find or specific questions / suggestions regarding the project.
+We appreciate all feedback! Feel free to raise an issue for bugs, questions, or suggestions.
 
 ## Assistance
 
