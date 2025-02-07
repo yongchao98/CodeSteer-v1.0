@@ -1,10 +1,6 @@
 # CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
 <img src="./Figures/Tag.png" width="800px" alt="s" />
 
-The synthesized dataset for fine-tuning SFT and DPO are in finetune_dataset dictionary.
-
-The synthesized question dataset for 37 tasks are in dataset_gather dictionary.
-
 ## Framework
 
 <img src="./Figures/CodeSteer-intro.png" width="800px" alt="s" />
