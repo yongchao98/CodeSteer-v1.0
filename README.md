@@ -70,63 +70,20 @@ echo ".env" >> .gitignore
 ### Create test samples
 The synthesized test samples for 37 tasks are in [dataset_gather](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/dataset_gather) dictionary. You can also synthezise the samples by yourself with tunable complexities with scripts in [create_dataset](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/create_dataset).
 
-On the [Gym-Sokoban](https://github.com/mpSchrader/gym-sokoban) task, We create 10k first-round-observation data for training and run for <=1 epoch.
-```bash
-# sokoban env settings. will determine game difficulty
-# it's normal to see some SOKOBAN errors, but the data will be created and it's fine
-
-export DIM_X=6
-export DIM_Y=6
-export NUM_BOXES=1
-export MAX_STEPS=5
-export SEARCH_DEPTH=30
-
-
-python scripts/dataset_curation.py \
-    --output data/sokoban \
-    --seed 10000 \
-    --train_size 10000 \
-    --test_size 10 \
-    --prefix qwen-instruct # we find it could work for base models
+### Run inference without GPU, Close LLM as CodeSteerLLM
+We can directly use unfinetuned model like GPT-4o as CodeSteerLLM, then directly run
+```
+python benchmark_test_baseline.py
 ```
 
-### Export variables and train
+### Run inference with GPU, finetuned CodeSteerLLM
 ```bash
-export DATA_DIR=data/sokoban
-export DIM_X=6
-export DIM_Y=6
-export NUM_BOXES=1
-export MAX_STEPS=5
-export SEARCH_DEPTH=30
-
-# export CUDA_VISIBLE_DEVICES=0
-# export BASE_MODEL=Qwen/Qwen2.5-0.5B
-# export EXPERIMENT_NAME=test-qwen2.5-0.5b
-
-export CUDA_VISIBLE_DEVICES=0
-export BASE_MODEL=checkpoints/Agent-R1/test-qwen2.5-0.5b-instruct-1mbsz/actor/global_step_100
-export EXPERIMENT_NAME=test-qwen2.5-0.5b-imagetest
-
-
-export MICRO_BATCH_SIZE=1
-export TRAIN_BATCH_SIZE=128 # 256
-export PPO_BATCH_SIZE=64 # 128
-export MAX_START_LENGTH=400 # the first round prompt max length
-export MAX_RESPONSE_LENGTH=100
-export MAX_OBS_LENGTH=120
-export MAX_TURNS=5
-export NUM_UPDATE_PER_ROLL=1 # roll out for a batch, then the model do N times of update. Currently not implemented.
-export LOG_MODE="['wandb']" # or 'console'
-
-export GCP=True # gradient checkpointing
-export N_GPUS=1
-export ROLLOUT_TP_SIZE=1
-
-bash ./train.sh # more arguments in this file
-
-# default config file is verl/trainer/config/ppo_trainer.yaml
-
+bash ./infer_CodeSteer.sh
+# default config file is ./llama3_8B_CodeSteer.yaml using the model uploaded on Huggingface.
 ```
+
+### Finetuning CodeSteerLLM with GPU
+For both SFT and DPO
 
 ## Feedback
 
