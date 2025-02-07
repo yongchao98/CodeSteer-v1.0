@@ -1,6 +1,6 @@
 # CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
 <img src="./Figures/Tag.png" width="800px" alt="s" />
-[![Spaces](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/hiyouga/LLaMA-Board)
+[Huggingface🤗](https://huggingface.co/yongchao98/CodeSteer-v1)
 
 ## Framework
 
