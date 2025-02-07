@@ -1,3 +1,0 @@
-model_name_or_path: yongchao98/CodeSteer-v1 # huggingface path or your local path to CodeSteer-v1
-template: llama3
-finetuning_type: full
