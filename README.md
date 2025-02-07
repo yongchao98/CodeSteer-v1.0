@@ -77,9 +77,11 @@ python benchmark_test_baseline.py
 ```
 
 ### Run inference with GPU, test finetuned CodeSteerLLM
+We can infer Llama-3.1-8B with own GPUs (default setting is in infer_CodeSteer.sh using 4*H100 of Harvard Cluster, please modify freely with your own cluster settings). You can also download the [Model Weights](https://drive.google.com/drive/folders/1qb_rec6f8rMYtFKm0eQpad0L0uHCwgpL?usp=share_link) in your local and change the path in llama3_8B_CodeSteer.yaml.
+
 ```bash
 bash ./infer_CodeSteer.sh
-# default config file is ./llama3_8B_CodeSteer.yaml using the model uploaded on Huggingface. You can also download the [Model Weights](https://drive.google.com/drive/folders/1qb_rec6f8rMYtFKm0eQpad0L0uHCwgpL?usp=share_link) in your local and change the path in llama3_8B_CodeSteer.yaml.
+# default config file is ./llama3_8B_CodeSteer.yaml using the model uploaded on Huggingface.
 ```
 
 ### Finetuning CodeSteerLLM with synthesized data
