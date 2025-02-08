@@ -83,7 +83,7 @@ cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
 ```
 
-The run the code with (default setting is in train_llama3-8B-CodeSteer.sh using 4*H100 of Harvard Cluster, please modify freely with your own cluster settings):
+Then we run the code with (default setting is in train_llama3-8B-CodeSteer.sh using 4*H100 of Harvard Cluster, please modify freely with your own cluster settings):
 ```
 bash train_llama3-8B-CodeSteer.sh
 ```
