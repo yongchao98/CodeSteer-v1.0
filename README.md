@@ -1,11 +1,11 @@
 # CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
 <img src="./Figures/Tag.png" width="650px" alt="s" />
 
-[Code](https://github.com/yongchao98/CodeSteer-v1.0)
-[Huggingface🤗](https://huggingface.co/yongchao98/CodeSteer-v1)
-[Model Weights](https://drive.google.com/drive/folders/1qb_rec6f8rMYtFKm0eQpad0L0uHCwgpL?usp=share_link)
-[Finetune Datasets](https://drive.google.com/drive/folders/1Byn-99gFd5ckRkPMJ8-zagzW7XDfO8ie?usp=share_link)
-[SymBench Datasets](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/dataset_gather)
+[Code](https://github.com/yongchao98/CodeSteer-v1.0) &emsp;&emsp; 
+[Huggingface🤗](https://huggingface.co/yongchao98/CodeSteer-v1) &emsp;&emsp;
+[Model Weights](https://drive.google.com/drive/folders/1qb_rec6f8rMYtFKm0eQpad0L0uHCwgpL?usp=share_link)  
+[Finetune Datasets](https://drive.google.com/drive/folders/1Byn-99gFd5ckRkPMJ8-zagzW7XDfO8ie?usp=share_link) &emsp;&emsp;
+[SymBench Datasets](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/dataset_gather) &emsp;&emsp;
 [SymBench Synthesis Scripts](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/benchmark)
 
 ## Contents
