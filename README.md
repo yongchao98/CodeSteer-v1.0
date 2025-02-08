@@ -1,4 +1,4 @@
-### CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
+# CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
 <img src="./Figures/Tag.png" width="650px" alt="s" />
 
 [Code](https://github.com/yongchao98/CodeSteer-v1.0) &emsp;&emsp; 
