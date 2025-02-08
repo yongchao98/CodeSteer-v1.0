@@ -12,10 +12,10 @@
 - [Framework](#Framework)
 - [Inspirations](#Inspirations)
 - [Performance](#Performance)
-- [Environment Setup](#EnvironmentSetup)
-- [LLM API Key Setup](#LLM API Key Setup)
-- [Train and Test Models](#Train and Test Models)
-  -[Create test samples](#Create test samples)
+- [Environment_Setup](#Environment_Setup)
+- [LLM_API_Key_Setup](#LLM_API_Key_Setup)
+- [Train_and_Test_Models](#Train_and_Test_Models)
+  -[Create_test_samples](#Create_test_samples)
   -[Run inference without GPU, test close LLM as CodeSteerLLM](#Run inference without GPU, test close LLM as CodeSteerLLM)
 
 ## Framework
@@ -40,7 +40,7 @@ We compare GPT-4o + CodeSteer with OpenAI o1 and DeepSeek R1 on SymBench, with 2
 The cost of tokens and runtimes for each method are as follows. GPT-4o + CodeSteer costs less tokens and runtimes than o1 and R1.
 <img src="./Figures/Cost-token-runtime.png" width="800px" alt="s" />
 
-## Environment Setup
+## Environment_Setup
 The fine-tuning and inference of CodeSteerLLM are based on [Llama-factory](https://github.com/hiyouga/LLaMA-Factory) with some modules modified by us.
 ```
 git clone https://github.com/yongchao98/CodeSteer-v1.0.git
@@ -51,7 +51,7 @@ conda activate CodeSteer
 pip install -r requirements.txt
 ```
 
-## LLM API Key Setup
+## LLM_API_Key_Setup
 If you want to use several API-based LLMs as TaskLLM or CodeSteerLLM, then you need to set up API key.
 
 1. First, create a .env file in your project root:
@@ -66,9 +66,9 @@ DEEPSEEK_API_KEY='your_key_here'
 echo ".env" >> .gitignore
 ```
 
-## Train and Test Models
+## Train_and_Test_Models
 
-### Create test samples
+### Create_test_samples
 The synthesized test samples for 37 tasks of SymBench are in [dataset_gather](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/dataset_gather) dictionary. You can also synthezise the samples by yourself with tunable complexities with scripts in [create_dataset](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/create_dataset).
 
 ### Run inference without GPU, test close LLM as CodeSteerLLM
