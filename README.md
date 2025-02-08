@@ -1,6 +1,10 @@
 # CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance
 <img src="./Figures/Tag.png" width="650px" alt="s" />
-These are the codes, models, datasets for papers [CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance](https://drive.google.com/file/d/1306XuVc-_CvXSP2WBRCAH9JBFUos_Kpf/view?usp=share_link) and [Steering Large Language Models between Code Execution and Textual Reasoning (ICLR'2025)](https://arxiv.org/pdf/2410.03524?).
+These are the codes, models, and datasets for the following papers:
+
+- [CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance](https://drive.google.com/file/d/1306XuVc-_CvXSP2WBRCAH9JBFUos_Kpf/view?usp=share_link)  
+- [Steering Large Language Models between Code Execution and Textual Reasoning (ICLR'2025)](https://arxiv.org/pdf/2410.03524)
+
 
 [Code](https://github.com/yongchao98/CodeSteer-v1.0) &emsp;&emsp; 
 [Huggingface🤗](https://huggingface.co/yongchao98/CodeSteer-v1) &emsp;&emsp;
