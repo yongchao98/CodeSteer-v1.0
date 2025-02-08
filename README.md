@@ -12,6 +12,11 @@
 - [Framework](#Framework)
 - [Inspirations](#Inspirations)
 - [Performance](#Performance)
+- [Environment Setup](#Environment Setup)
+- [LLM API Key Setup](#LLM API Key Setup)
+- [Train and Test Models](#Train and Test Models)
+  -[Create test samples](#Create test samples)
+  -[Run inference without GPU, test close LLM as CodeSteerLLM](#Run inference without GPU, test close LLM as CodeSteerLLM)
 
 ## Framework
 <img src="./Figures/CodeSteer-intro.png" width="800px" alt="s" />
