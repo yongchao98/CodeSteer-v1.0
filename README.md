@@ -7,6 +7,12 @@
 [SymBench Datasets](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/dataset_gather)
 [SymBench Synthesis Scripts](https://github.com/yongchao98/CodeSteer-v1.0/tree/main/benchmark)
 
+## Contents
+
+- [Framework](##Framework)
+- [Inspirations](##Inspirations)
+- [Performance](##Performance)
+
 ## Framework
 <img src="./Figures/CodeSteer-intro.png" width="800px" alt="s" />
 
