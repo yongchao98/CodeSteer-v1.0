@@ -1,0 +1,12 @@
+Given a 8*8 grid where each cell contains a number (between -15 to 16), you must select 18 different numbers from these cells. The product of each row and column of the selected number must be greater than 0. The numbers in the same row are separated by ',', and the coordinate system uses the top-left cell as the coordinate (1,1), with the horizontal coordinate under the top-left cell increasing and the vertical coordinate to the right of the top-left cell increasing.
+Using the number 15 in the top-rightmost square (0,7) as the first selected number
+7, -15, 4, 3, 8, 11, 11, 15
+1, -14, -2, 15, -6, -13, 4, 7
+5, 11, -8, 3, 5, -13, 12, 6
+6, 5, 12, 8, 16, 7, -15, 3
+-12, -5, 13, 10, 12, 3, -11, 6
+13, 15, -5, 11, -11, 1, -1, 5
+11, 14, 15, -4, 6, 10, 9, 4
+-14, 11, -12, 11, 4, 14, 1, 15
+
+Return your answer with the format <<<list of selected number positions>>>, where each position is given as row column (0-based indices). For example, <<<0 3, 1 0, 2 4>>> means numbers selected are at positions (0,3), (1,0), and (2,4).

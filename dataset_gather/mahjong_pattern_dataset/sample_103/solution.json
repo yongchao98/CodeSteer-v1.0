@@ -1,0 +1,11 @@
+{
+  "initial_cards": "QMAQLVIGIXROK",
+  "rounds": [
+    {
+      "add": "V",
+      "remove": "O"
+    }
+  ],
+  "solution": 0,
+  "complexity": 1
+}

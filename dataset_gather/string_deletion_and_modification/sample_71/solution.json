@@ -1,0 +1,20 @@
+{
+  "initial_string": "bacccbbcacaaaacb",
+  "selected_rules": [
+    "If the string prefix is 'ab', replace it with 'ca'.",
+    "If the string starts with 'bb', remove the second character.",
+    "If the string contains 'abc', replace the first occurrence with 'cab'.",
+    "If the string contains 'bca', delete the first occurrence entirely.",
+    "If the string contains 'acb', replace the first occurrence with its reverse ('bca').",
+    "If the string ends with 'aa', replace it with 'cc'."
+  ],
+  "intermediate_states": [
+    "bacccbbcacaaaacb",
+    "bacccbcaaaacb",
+    "bacccaaacb",
+    "bacccaabca",
+    "bacccacaba"
+  ],
+  "final_string": "bacccacaba",
+  "complexity": 4
+}

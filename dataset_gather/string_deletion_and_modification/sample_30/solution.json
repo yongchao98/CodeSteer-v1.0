@@ -1,0 +1,20 @@
+{
+  "initial_string": "aaacbcaccacaacbcc",
+  "selected_rules": [
+    "If the string prefix is 'aa', remove the first character.",
+    "If the string contains 'abc', replace the first occurrence with 'cab'.",
+    "If the string starts with 'bb', remove the second character.",
+    "If the string starts with 'cc', remove the first two characters.",
+    "If the string ends with 'ba', replace it with 'ab'.",
+    "If the string suffix is 'cc', replace it with 'b' and prepend 'a' to the start."
+  ],
+  "intermediate_states": [
+    "aaacbcaccacaacbcc",
+    "aacbcaccacaacbcc",
+    "acbcaccacaacbcc",
+    "aacbcaccacaacbb",
+    "acbcaccacaacbb"
+  ],
+  "final_string": "acbcaccacaacbb",
+  "complexity": 4
+}

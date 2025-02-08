@@ -1,0 +1,19 @@
+{
+  "initial_cards": "QNWSHPNZFKSUF",
+  "rounds": [
+    {
+      "add": "F",
+      "remove": "N"
+    },
+    {
+      "add": "D",
+      "remove": "S"
+    },
+    {
+      "add": "R",
+      "remove": "N"
+    }
+  ],
+  "solution": 2,
+  "complexity": 3
+}

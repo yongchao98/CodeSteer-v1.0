@@ -1,0 +1,24 @@
+{
+  "matrix": [
+    [
+      "Z",
+      "T"
+    ],
+    [
+      "O",
+      "H"
+    ]
+  ],
+  "solution": [
+    [
+      "O",
+      "Z"
+    ],
+    [
+      "H",
+      "T"
+    ]
+  ],
+  "formatted_solution": "O,Z,H,T",
+  "complexity": 2
+}

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "YKUBPMMOOXAUF",
+  "rounds": [
+    {
+      "add": "L",
+      "remove": "P"
+    },
+    {
+      "add": "M",
+      "remove": "A"
+    },
+    {
+      "add": "O",
+      "remove": "U"
+    },
+    {
+      "add": "I",
+      "remove": "O"
+    },
+    {
+      "add": "M",
+      "remove": "L"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

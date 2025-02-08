@@ -1,0 +1,20 @@
+{
+  "initial_string": "bccaaaacaa",
+  "selected_rules": [
+    "If the string suffix is 'bb', delete the last two characters.",
+    "If the string suffix is 'ac', replace it with 'cb'.",
+    "If the string contains 'acb', replace the first occurrence with its reverse ('bca').",
+    "If the string prefix is 'bc', delete the first two characters and append 'aa' to the end.",
+    "If the string prefix is 'ab', replace it with 'ca'.",
+    "If the string prefix is 'ca', replace it with 'bb' and append 'c' to the end."
+  ],
+  "intermediate_states": [
+    "bccaaaacaa",
+    "caaaacaaaa",
+    "bbaaacaaaac",
+    "bbaaacaaacb",
+    "bbaaacaabca"
+  ],
+  "final_string": "bbaaacaabca",
+  "complexity": 4
+}

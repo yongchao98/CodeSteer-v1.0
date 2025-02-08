@@ -1,0 +1,27 @@
+{
+  "initial_cards": "BOEQDLYDPBWNP",
+  "rounds": [
+    {
+      "add": "Z",
+      "remove": "P"
+    },
+    {
+      "add": "C",
+      "remove": "O"
+    },
+    {
+      "add": "P",
+      "remove": "B"
+    },
+    {
+      "add": "P",
+      "remove": "W"
+    },
+    {
+      "add": "P",
+      "remove": "P"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

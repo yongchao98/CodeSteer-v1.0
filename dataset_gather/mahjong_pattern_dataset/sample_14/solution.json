@@ -1,0 +1,23 @@
+{
+  "initial_cards": "HZDFCXABNORCQ",
+  "rounds": [
+    {
+      "add": "C",
+      "remove": "H"
+    },
+    {
+      "add": "O",
+      "remove": "C"
+    },
+    {
+      "add": "F",
+      "remove": "Q"
+    },
+    {
+      "add": "C",
+      "remove": "D"
+    }
+  ],
+  "solution": 1,
+  "complexity": 4
+}

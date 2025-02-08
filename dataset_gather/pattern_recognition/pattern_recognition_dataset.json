@@ -1,0 +1,802 @@
+[
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nP Y L I G H C G I W C C Q\nV Y Q Q Q Q Q K Q Q O Z H\nK S Q Q Q Q Q F D D J N T\nB P Q Q Q Q Q W R I B T I\nY L Q Q Q Q Q Y U Q S Z V\nD F Q Q Q Q Q B O E R R U\nY N F U P B J M Y E U H X\nA H Z O C B I I D D W X F\nD E A F G W W K J E A T U\nR Q F B H F M M K N F O N\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nM F Q G Q B D Z X D N J\nW W I D M O B U S S S Q\nF N V I F S T P S S S V\nV E Y B Y V K H S S S H\nI Q D W Q L D R P B D O\nY C G D E G O N I D D R\nR Q K R C I W G S P A H\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 3,
+      "column": 10,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nK F K T T Y F S G Z Z\nX X S P B S N K T P N\nQ I F O K Y W H L A E\nS X G S T G U X X C M\nO P R K V A Z T K M U\nI B X S C D U U U U N\nB G K R D Q U U U U R\nH T X A Y D U U U U I\nW K U O T J U U U U X\nA Z F H W H H Y I M M\nF X R Z A U T R O O E\nK J Z V O N X V Y B C\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 8,
+      "column": 9,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nB K I O F H B J L\nF J L G P D S Z U\nI L Z Z G W Y V F\nJ T D L Q X R F Z\nE X O I P X V G O\nK F R Q F H W L O\nS H W C F Z E L Z\nN U B B B B B W L\nS B B B B B B N T\nJ B A B B B B T F\nK X O B B B B O B\nM I R R L L Q Y Q\nH D J A D S O V H\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 10,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nX R C H H E Y Y Y E N A\nD L W I Q R Y Y Y V G P\nY D R J L D Y Y Y R Q B\nA D C S J W S G O T Q V\nG Y J O G U Z C H E H G\nI H X N R M Q Z G J V U\nO H L O Y A W I M W F J\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 2,
+      "column": 8,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nG Y V W J I N D X X D\nU E T X Y D K C T O I\nE G Y A D E Y Y Y Y R\nQ B N T O O Y Y Y Y I\nU K H U Y Q Y Y Y Y K\nT L I A T M Y Y Y Y Y\nJ A W C I Z N U D T G\nK L R U K L A Z Y C K\nZ S J R T R X V M Z Q\nM W W A C Y S V G W T\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 9,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nL W F E O J\nV J W O V E\nF Y F W V T\nZ Y Z U Q K\nY Y K W F G\nJ O S A H L\nB G E I K S\nC S A A A U\nY A A A A N\nU Y A A A G\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 9,
+      "column": 4,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nC S A F O U I T C\nY Z N H Y B B G O\nS J C X H C T Q I\nK S W F C S P G X\nG G G G Y Q A Y G\nG G G G M S M K M\nG G G G S O P G H\nG G G G G A Y X X\nD X V U X R A L T\nT B M F J B H W Q\nB N Z K Y T D E Q\nY E T Z T M E Z K\nW A R T V X Z H X\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 3,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nG I V Q I G\nU V L F V W\nC Y V V J T\nR M J J Q R\nC O T K T X\nZ M B B B T\nL F B B B X\nH R B B B Q\nT H W A T Q\nG I U M U V\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 4,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nL D H X Q G D V E S\nE H Y T D Y R T N M\nK K K K A M E M M K\nK K K K E W X D L N\nK K K K Z D U D T N\nK K K K Y N V J V F\nZ C T J M G V D X P\nG D A J R U Y H K L\nS U N E R A Y X N Y\nK Q I O P N R G N V\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 3,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nZ J B B O W C O S V L K A M K\nD J R J Q T G J U E N M R A U\nY Y H P M H J A A N Y W P A M\nS Z Z D Y W J H J S M X B V R\nH K W Q V U A L B A I D E V P\nA Y M C N X X X U S R P X O O\nZ Y R T X X X X M H F T K H F\nP I Z Z Q X X X R X T O R A B\nM E V R X B U K W L Z A H M B\nP S I X F E Z P V W M C V B B\nE K U A P B M T P J T A S L A\nC R W P Q R Y X S C O E A J G\nT S H U U I G J L U B Q J I B\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 7,
+      "complexity": 3
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nU D L G V L V\nA K L K E N N\nL Z O A V A M\nM M M Z K W S\nM M M J C M Y\nM M M C W Q D\nM Y Q P I X Z\nA F F U D U G\nR L N P P U K\nP C M C R N E\nV E O J B R I\nX Y C R N R R\nU C F Z Q T A\nZ W H X P M P\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 2,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nB E S O W T U P Q J F F\nW J D R F N H H J N P B\nS D O N N N N O R A T X\nH S R N N N N Y E Y K G\nC L L N N N N O Y Y P H\nH W D N N N N I K O D D\nP P V R R H Q Q F A N E\nJ B M F C P X A L N B P\nZ Y O A Q T D J D K M O\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nG Y A D H G C P H F E E F G F\nX K G F T E D D E Y H N J R P\nV L B F A I I I I H O N O R H\nE N G U Z I I I I W J O M V F\nJ E M F U I I I I A Y B T F E\nD R A H R I I I I X R M I S R\nO O O C X X O R F F K L Y G N\nP R X Y M G W L G A R B G I F\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 8,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nG H Y J I I J D S L E\nT F G S U G I D W V K\nP O D A Y P F X C Q X\nY U H M Y D D D D D M\nB D H D P D D D D D A\nE I N O N D D D D D I\nU J C U B D D D D D V\nY P K I D D D D D D K\nE U G U D J F O N G L\nP F F O V R F M Y O D\nG M X Z E D J B U W J\nB V A A M C K P Z S U\nG A A G X J T L R B W\nI N Q I U L S L F E D\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 9,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nS P P P P W V L Z N W Y\nP P P P P Q G C F C S U\nG P P P P F D K V W W Y\nA P P P P U F C I D W Q\nA Z E B Z A W A E W C E\nC V L X R G W H J N T J\nF F H R P A J F L S U W\nZ T C V D U J E A V B B\nA L T Z Q F S J A J G J\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 3,
+      "column": 4,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nE O T I A S\nD Y R B U O\nY M S Z Z Z\nN G H Z Z Z\nQ S X Z Z Z\nV P M K Z J\nE X X M F N\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 5,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nI P U S N S A\nL C S P E X M\nI F Z C A K S\nY E C H B M Y\nR C F C C Q F\nR J F M X X K\nI I I L U Q M\nI I I I P K F\nI I I M U P D\nQ L F A R W K\nX P A X I U Z\nT Z U X P B F\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 8,
+      "column": 2,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nC M O G B C W G L P\nE P C S M W V D K J\nL O L V Y U J B V H\nZ Q K T I A Y E G R\nH H Q O S W J N C M\nQ V I T C G Y S X O\nP B B W D E W M B S\nA L R M P C C M A Y\nP C Z B E B S G I X\nB F Y O F F F F C D\nV K E G F F F F Y C\nG D R P F F F F Z N\nV M F M F F F F T W\nR B P K B Y M N L Y\nY J Z Z Q P X R P Z\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 12,
+      "column": 7,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nQ L H E X Q Y D Y B E F\nL I A M B G X C N J V W\nC Q W N F A B U O P B X\nF O K I L A Z F L L L G\nI V S Q N T M C L L L E\nG T V P K H G L L L L I\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 10,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nN B M H I U W F Y Q S D Z\nL I Z T C E R W H A Y E Y\nH P C R E B T Q I G S B M\nN F E W T Q D K E C C S V\nG M A S Y D H H K Z E Q V\nI B D A V S B M V O W F M\nR U F P S L C Q F Y P V T\nG C T U T P N A J P P E T\nQ J K R T J V D K B I K L\nX D L L L N Z Q J U M K S\nM R L L L M N Y S X F U Z\nF H L L L K R N Q E Z H U\nC D J E Q T M P X M M M U\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 11,
+      "column": 4,
+      "complexity": 3
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nJ P N C G Z A L R C Y J F O V\nK C C D S S S S S A W J T O O\nH M G Z S S S S S E F B D Q Y\nM V F X S S S S S U W U Z P W\nB M W R S S S S S L K V U M R\nT T I E S S S S S X S D X C W\nL X B T Q O A H C C Y F G P Z\nR B G Q G V U W O E P I O Y C\nZ K C H U M M P Q P B N C T W\nH J F Q P I V R B H J O E S V\nR H T I J N J J N N G X S H G\nL C I G B L Q Q W E E F U L G\nI Q K A R Z J B X K U A R Z V\nQ W J Q J A D N A D W I F U O\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 8,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nK X I R T M J C W A Z\nG U P M T U E V G I M\nE C L V J J J F T K L\nA J M W J J J Q T O P\nC E U X J J J X A U G\nO L H F F O Y Y Z O K\nC K C T Z G E G M L D\nP G H Y U C U Y S E Y\nR U Z H R C E Q R J V\nR Q Y T K X I V U I S\nD A R H Q N H A B I Y\nT K X F D D G A T M I\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 6,
+      "complexity": 3
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nN Q S F Z W T N M S H G\nV R B K X F D N X F Q S\nZ B N U L I V C V G W B\nB H R X J O U Q E O T G\nM R S G C P B A G X H M\nA R K N G G P A E R Z J\nJ A K Y A Z I V E R B X\nB L H P D V Y X N B G K\nQ U B G S Q W M V U R V\nB C L L H X K B U H T N\nN P N E J N X Z J S L K\nT Q J D T W N K Q F E X\nK X I C O L S M M M B Y\nX J W Q K L G M M M C M\nV D T N X L I M M M T A\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 14,
+      "column": 9,
+      "complexity": 3
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nQ N M K W Y O F\nB U C Y K F S S\nI M P M K Q V L\nZ L U B Q D I Q\nE Z W H E A V C\nA P Y Y Y Y A R\nL F Y Y Y Y U W\nP F Y Y Y Y G C\nS M Y Y Y Y H T\nQ P S Z C K K Y\nL L O N O G A A\nW Z G S F Z V A\nP X P P X N N X\nZ G Z Q K S Y B\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 8,
+      "column": 5,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nN H M K H L X G S R\nA L Z D Z S S R G X\nN O P I I I I B I H\nR R Y I I I I H D V\nJ I X I I I I D Y I\nT N G I I I I Z L J\nC V E T D P Q T Y B\nC J A N S S J S O E\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nL H P T T K A S\nB W W W D I J W\nU W W W A A E A\nO W W W T T Y S\nD M Z V D Z Y V\nS C T W H C Z P\nK M N Q E H D N\nE K S X A U I D\nF F D S V J P J\nI I S I T I V Z\nR Z L W Y J D E\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 3,
+      "column": 3,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nD N E L R Z R R R O P Z R\nA T Q D M M R R R H D P K\nU U U A V D R R R Q T F B\nT M D F O W Y C O N P G D\nL V S N L X X B Y J A L F\nX D O B W J G H V U A M S\nG N M U G Z P R U D J B Z\nZ G M A Y F D J Z L O F N\nC Q L E U A T N Q S V O O\nL A X M X D R L X C T A S\nV W F K W E P K V W D U Z\nC R A F R R S N O Q C G S\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 2,
+      "column": 8,
+      "complexity": 3
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nC S E G Y Q J Y W R Y\nO F D Z Q H D I W Q O\nT F F F F S U U Y A K\nU F F F F B Y X W C V\nC F F F F P S P O O Z\nS F F F F X L F T J B\nG A P E U K L L K K W\nX W G O N S Y Y E E Y\nE L R Z P J U U V P C\nH K X Z Y O N U K F F\nA X J K K D O R W P Y\nP M R F X U J Z W F P\nR J R J P L A U Z S Y\nT V E F Z J H M Z W Y\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 4,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nD C D R Q P\nI V B P O E\nU K X E P P\nR R R N U N\nR R R M B P\nR R R B E N\nQ A O I F B\nV R Q G L V\nW H C O N E\nK L Y M V Z\nG R M U A G\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 2,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nQ Q N P I O\nN M P W M K\nF A W M W S\nC E E E D V\nJ E E E F Z\nW E E E N I\nI Y K L X J\nP W L G H P\nQ U M G D Q\nU M W H D U\nF U M X A S\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 3,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nI X T A A P\nU D I Z J Z\nF F F S X E\nF F F B T D\nF F F S L Q\nO I X V H Q\nX S K S B Y\nD V K D Q J\nQ Y S K S J\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 2,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nF P F Y F H X U E W R Z C\nO M G M J E A G R B C Z U\nK Z Q Z K F F X Q S B B B\nD W W A G U U M X Q B B B\nY W C F Q F X Q W X B B B\nR N V R P K Q Q S W M W I\nG Q N A E H R B O U N N J\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 12,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nC Z Z C Z U K V M D D F O J\nW V F S A U G J X P D R J D\nH H T G Q X F D Z T T T T D\nJ I M Y B T W X K T T T T H\nD U H E F P L I I T T T T O\nS A Y W M V M M T T T T T N\nT K B K M J Z V T S A T E M\nG X N E Q K W R B E I W Y J\nZ T I I M M R E A R Q W F V\nK B K D J F C C X Q P M E O\nH D Z K T Q K S T L W H D Z\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 12,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nU O W N E P V H\nT T T T T N N C\nT T T B K P I Q\nT T T Y T K H C\nO U Y X E K G E\nE K O E X F B X\nP X T K L W H U\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 3,
+      "column": 2,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nQ W Z P S V Q C\nE S E G G G G I\nA S M G G G G J\nR G B G G G G U\nA A X G G G G M\nR C U C V B A D\nP T R Q D O N W\nR B E X O L M M\nM G F J W N Q N\nX N P M Y N X D\nU V C S C H C K\nL X C W U J K F\nQ J M V Q H X O\nK O C E S R P E\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nS P W I W H N\nU L S P N N N\nM V H H N N N\nI R I F N N N\nW M I D F P S\nT H X M U K C\nY A W N L P H\nO V I S N Q T\nT K O S E L I\nB Y Y G N B S\nU Y E E M W J\nW O C C V L W\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 3,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nW Y D J V K C E B H Q T\nM B O C M P P A U W P L\nS V Y Z U Z U K W R S Q\nO Y K D Y C A W V N U R\nC U V I W U A B W D V Y\nE I L E V F X J L M R F\nD K D D D D D N R L X H\nN W D D D D D P O W B K\nD F D D D D D D D A E W\nE Z D D D D D H I I S D\nV Q D D D D D M R O K P\nK J I E Q L F T S I A D\nK E T H L A E C S P G B\nH L Z F C M G X Z L O F\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 10,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nY V F S F A T P\nM X Z P Z D O T\nU O O X U M E Y\nE T A G Z Q A L\nF R R H R P R P\nG T K T Z W W W\nM S E L Z W W W\nE G Y W S W W W\nZ H T K F F Y S\nO R V H V S S V\nF J X J X X B R\nC O G T J G L K\nA A R R D L R I\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 7,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nM Z X B F N A V R R D\nM O K C Z Q E I R R I\nV A C Q E F U C L A H\nZ K G O O A N R W Y Q\nK Z L V G O C I K F I\nG E F E C O Y Z J O V\nS F O W I I M J F N J\nG V T M M M M M B I X\nT T P M M M M M L Q Z\nE K Q M M M M M H V M\nD I L M M M M M B T G\nA B Q M M M M M N W F\nI Q R K G T Y P T X K\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 11,
+      "column": 7,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nI E L F L B\nQ V L Q F X\nT P K J U R\nD Q D W A Y\nW S S S S S\nA S S S Y E\nB S S S G J\nV R T I X M\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 6,
+      "column": 3,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nT E E E X V M P Z I V L\nP E E E F H E M X Q P W\nR E E E C O Q S O T D S\nN I B O X T D F I V A T\nU T X P E Y U Y P F N F\nH B Z I M N X Y A G J W\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 2,
+      "column": 3,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nW E B P M L\nE R Q T S L\nZ V V V D H\nR V V V F A\nK V V V N F\nR K R V D J\nJ W T E W J\nE A M R E K\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 3,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nO D U U B X L D W X N N U T V\nU D J V F T W F L D O S T Z U\nA W B B Z M I J F W V M Z P V\nT L D N P E Y C V U E X V V Z\nE E E E E Z W A A Q G U B K X\nE E E E E U G J U G N H Z Q H\nE E E E E Q X S W Z F F P O C\nE E E E E V Q Z D W X L Q C H\nE E E E E E A L Z M Y E D N B\nV K F Y R X K G A V X M Y T R\nS J J N P O W R J O P R K M R\nH P D J X C T V M W C I W T M\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 8,
+      "column": 4,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nS M Q A J N Z I B F H W M W\nA V O A Z Z Z M X B C N M V\nX Z Z D Z Z Z S V J N R D L\nS Z T O Z Z Z P M K K K D T\nB W O Q E I B A K A Q X N T\nK O V B U G O B Q S F R U J\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 3,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nY Y J F J V M\nC O D K W M P\nF B K K K A O\nU P K K K X H\nF R K K K J Y\nS Y M C V P G\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 4,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nK R J Z M P Y Y Z F Y W Z R Y\nG W U X R L C E S A I P Q I I\nM Q J C Y V P A Y R F E S T N\nO Y D A B O B E B A X W Y Y Y\nK N N M Z Q F X F E D F Y Y Y\nA N K Y E A L N R D F R Y Y Y\nW Z P W P C C X C F S T X Y M\nN B M E A M D E K H K V V C J\nG J I W I N T Q O H C F M B S\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 14,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nO C D G G Q J Q U K\nX U E C B R V S K M\nE G Z R R J R Y O T\nW U J J V P G C Z X\nK T F L P P N H N I\nK K K Z E Q E Q C Y\nK K K U U W U K S B\nK K K O B O B F S V\nB O L B L Z T Z F T\nN B T X O Z N L L Y\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 2,
+      "complexity": 3
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nJ U O R Z U T O\nM U Y I W U Y C\nV D O L R Q S E\nK N Z L O S T E\nB C F Z D L C W\nK K P P P A Z T\nO T P P P L R W\nF Q P P P I V E\nQ A V X O F N C\nS L K B U Z H R\nA W L R M S N N\nA L E Q L V P O\nG T L K C H I H\nU T Y K N K B J\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 4,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nE N W Y F A R\nO C Z U J D Y\nZ C C C C C P\nN J S C C C A\nM H H C C C S\nP W A A P M U\nR P S F M P B\nH T B C X J B\nO Z X A P E V\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 5,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nC L F T H P R T F U W B\nR A Q O U H Z I H S E D\nK A Z O Z Q K J I I I D\nL O Q X M J S I I I I G\nR C U J A I D Q I I I H\nG D J E P L H L Q O C U\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 10,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nD D L C F G U H H P Q O\nP N F A A A C H A Z K J\nV K L A A A K U K M L O\nN G R A A A E E H F Z W\nI A D Z C E G D E A G A\nH H H T N L S V F W T V\nL T U J T B W I Q Q N S\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 3,
+      "column": 5,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nG B J O T E J K Q N H V\nI G D S U I H P N V J G\nM U T F S U L D G S L K\nS B F N R L F Y O K Q M\nT F F F F F F O Q Y M Z\nZ F F F F F F O W U E C\nD F F F F F F B G L U C\nM F F F F F F X Q K X D\nO F F F F F F P A M A U\nE F F F F F F N B M V B\nN N U X U G U S S N Z Y\nX G C D V W K F T P J V\nM F K Z P R R K F S X A\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 9,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nO P R F A L M G\nC Y D Z F V G V\nQ I J B I V B E\nF A F V V V V L\nD B Z V V V V P\nY I O V V V V T\nK K J V V V V Q\nC V O F E Z J C\nJ F D V C F S A\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 6,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nJ R Z T F B R\nN F J S Q U D\nF B H U X L W\nY M K U L H N\nC U H I J B Q\nI N N N T Z I\nA N N N E D H\nB N N N X U R\nO X O P Q R I\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 3,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nK A L I T Y V A L Q F I Y O T\nX I Q W E I A K T J D M E F S\nS I Y A W J Y V V V J R J L R\nU C O X Q T M V V V X M E Z M\nT H E R Q U X V V V L S O T H\nB R O T X J J I W D J X U S D\nQ U D Z A F W Z F E K T L S N\nO O C H C Z M H R D C P T I Z\nB W S C D U T D Q A E X A A Y\nN S X A V H Z H L W R P V E R\nK O O B X M Y D H G D E V T S\nC N C M N U R S Y T F M Q Q F\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 9,
+      "complexity": 3
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nQ S I K M K S W\nI Q B C M P M P\nM Q W J O C C C\nR O B Q E C C C\nP D B A R C C C\nQ P C D O H J P\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 7,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nJ H E U I L V R D\nG A S N G N P M K\nZ H Z F Z L R B C\nE P R P T J B N A\nS U A L X U A P V\nN H R T P B L Y M\nU O X D E J Q X E\nW O M E W Q H J H\nW W D F T N I E V\nC I Z U Y L M Y W\nY T W Q K T G O N\nX X X P G H X C L\nX X X K A X A K T\nX X X Y I H I B T\nR G G S I W P V S\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 13,
+      "column": 2,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nZ A W G J I L W H\nL I P E B T J Z C\nR P H P D H G D N\nJ J J D N T P N G\nJ J J O R O A A H\nJ J J M C V P T J\nS R U E L E Z K F\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 2,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nO I Y C Z J Y V O F R X T A\nV Y V I F M H R Z Q Z X B M\nI B R R O Z A L E Z D B G X\nM T V B K D I T K K K K K Y\nF X K W D M I W K K K K K C\nQ K O H V Q P T K K K K K A\nQ I B V L H K A K K K K K M\nC A H C M P L Z K K K K K D\nW I I U N N D S V R C E L B\nP B S U N Z M Y V U Y L Q A\nD S F J O D P W K Q P J V M\nV U M F N A S C I X I T B I\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 12,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nY S E F J C M L S J R T\nK L R Z Q W Q K H F X N\nG G G G G G Q P S O F X\nG G G G G G J T P Z Z I\nG G G G G G L M Z S F A\nG G G G G G Y X S Q M G\nG G G G G G X X C D Q N\nG G G G G G V N A D D U\nJ L Z G A W F P Q E P C\nS W W U O S L M A Y M V\nA T R R S P M R L L J X\nN M K T W H Q A V C W U\nI C V P R L Q L O J T P\nM Q Y F U E Q J J G H N\nA F M N M T Q O W H B T\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 5,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nZ W P T I V J I Y\nC C J T M B I F Y\nQ A F F F F F M Q\nJ L C F F F F J B\nU V M F F F F D N\nM G I F F F F S Q\nG E T C N M S G U\nR S U X D D O P A\nH B I R S K B K Z\nU N W Z I M J Z Q\nK I D J H M C Y R\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nM N V J R J G U\nA X R D B W L Z\nK F T V B C S J\nQ I I I F X H S\nS I I I A A M A\nH I I I S M Y F\nQ G H Y V U Y H\nA C O U L Z J C\nM O O Q N N O H\nX Y C H H U E R\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 3,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nO J N F Z X B U R\nI W Y B N U O S Q\nO I B K R U Q H S\nZ Z H U Y Q S R A\nC C K N T B B C V\nT Y W S N U I W E\nQ O O V X B N V T\nX H F N N N P P J\nV C H N N N A O C\nH B E N N N G Y H\nQ K I E T J D E F\nU C S A A Q P L U\nL O E R O E H C F\nE R S V Q I D C G\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 9,
+      "column": 5,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nF N U V P Q\nC I I I V D\nY I I I M R\nZ I I I S J\nC N C H L O\nO S A Z Y H\nC E J R Y Z\nX A V N P E\nO K D Q Q I\nE H G N P F\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 3,
+      "column": 3,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nE Z I I I M Y V F O X U Q Y\nB Y I I I Z Y F X G G Z M I\nL C I I I J L M S U G E T X\nB S T R E U S A O K M B X A\nN F T S C A E C W Q V T A H\nT D V U H M E H S Q Q R Z O\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 2,
+      "column": 4,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nM Y E O Q B O N\nP P D M B F X P\nJ E X O O O O O\nV G C O O O O W\nH Z K O O O O O\nJ V L O O O O E\nK Y N Z Q M F B\nF R T N W X O T\nT A D X U N U U\nX B X E Y M R W\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nP K S C F S E U W G B T T\nL B N L L O A G Q P M H R\nF O S D P H I X V N X M F\nR E H T U F I J E M R P O\nT A F F M X J I C N Z Y H\nQ D U M X D M N T N H V Q\nH U M D Q L R R V V I W Y\nA I B Y S L D E X W E N K\nJ A H T H G K O L H C Y W\nT X U I G W X K H H B F D\nL A U I V V P T Y X F F J\nF S R R R K G Y L Z M V P\nR I R R R P S X H Y V T P\nV S R R R U U T K J N N S\nI X M P K Q C I F U Q Y J\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 13,
+      "column": 4,
+      "complexity": 3
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nT X A L J V X Y Y L R U X I\nE G D U Y T C F F F F L I U\nK X S B E R D F F F F U S R\nF G U K P F O F F F F F C E\nC K W Z C V Y F F F F F K D\nH E N J Y T O V M U O Y J J\nR A Y Y N K K I K I O P D P\nE M G B E E G X G P T R K K\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 10,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nX A B C F F F\nE T Y G F F F\nU G P S F F F\nW E A V P A I\nJ W E F A Q V\nF S G J K Y Y\nS P Q N B U K\nW A G Z Z H Z\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 2,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nQ I A Y W B D K K E J F\nQ R M U E Q I I K S X K\nY D R E F U I W H V Y I\nL Z S E F P A M D M Y U\nX P C C C C H Z V O V V\nL T C C C C P Y P A Q V\nX O C C C C P C S X O B\nP N C C C C Z E A X B L\nK R U A O Z C I G S L E\nD G O Q O S I U P Z E N\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 5,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nU L M H P C C S T Y L P\nA C L O U R G G X I O T\nH F W S C B C W D V U G\nK M M M M Q S Y Z U Q E\nC M M M M O O E S A P I\nN M M M M F W V Z M D Q\nQ M M M M S W R Y T O N\nN Z C Z Z V N C R L F P\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 6,
+      "column": 4,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nZ X O F I Y C K K A I\nB G Z H X X J A P V B\nK T B A F W T N Y X T\nH F L Q W J S I Q H L\nY I Q R Z F K U L R C\nX F K J J J J N X H K\nD L U J J J J X L Z E\nS H G J J J J V Z R Y\nO M X J J J J W M I R\nP O C O I N F S M V Y\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 8,
+      "column": 6,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nT E H Q P S P X\nQ T T B V Q N U\nG T Y N W W D Y\nS X L O O G X S\nA F Y S Z Z K A\nZ N T A D K J M\nL S W B R C C C\nO M X K P C C C\nI Y G P P C C C\nH J G T O Z Z X\nW Y J Z G H N D\nD C K B W H F P\nP B X H O W R H\nY I A S T G U V\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 8,
+      "column": 7,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nJ A L T O H\nZ U B V M Z\nP W U V M F\nS R Q C P S\nN Y O Q T M\nH A W W W T\nK S W W W P\nF O W W W V\nL Q X W M S\nU O O W Q M\nI I Q V Y M\nR S R U A H\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 4,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nJ K S P X L\nQ V G W W W\nT U S W W W\nN X N W W W\nE I L H A B\nR Z G U D V\nJ S B F U X\nY K O V U E\nZ F X R I N\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 3,
+      "column": 5,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nP T R Z B V\nP L R U Q U\nX M C R D Y\nN E A S W X\nC I L L L Y\nJ F L L L Y\nH G L L L E\nR N M N P N\nW F L M L E\nZ W C Z J I\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 6,
+      "column": 4,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nM U Z H H H H N T\nA H O H H H H M N\nR A J H H H H Q G\nK J X H H H H V L\nV Y L Q E K D P Y\nO J P E X I P V R\nT H V B Z V P A A\nX D C H S D H S C\nP R Q Y Q O Y N C\nX A O M R K D X I\nC A H X G L S L F\nQ O R U P N B I X\nD R Y S W Q W W E\nQ V Y Y A Q V H O\nN I V N V X O Q D\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 3,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nV J Q W S X C B\nT X R K K Z N E\nJ T X R A S L X\nJ H H J M P P P\nQ T I F H P P P\nA K T X R P P P\nP N J N T G K O\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 7,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nO G U F B F C\nM O M K M F D\nX V N C I P M\nU Z U G P U A\nE C Q P C C C\nG P A E C C C\nU D Y D C C C\nR S G W F A Z\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 6,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nQ Y Q R K V A Q Z C J\nS K F C N U X O X X I\nM O B Q Q P G B I Y W\nI Y J B G P B D Z G G\nI Z U L Y P M M M M T\nC V P H M V M M M M P\nM H I T Q U M M M M U\nZ D L X G D M M M M D\nH Q W W P N U X I L W\nL G I Q Y P E W B U Y\nB Z F S K E V K D T M\nB Z P V J U U Y H V Q\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 9,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nQ L H G V I O V H N O O X K I\nN W H X B E K C W T A J I O D\nX Q B V S X X I D I Y C T N L\nO U I N Y W C I I I I P P Q H\nM R N U X O Y U I I I J J Y T\nA T E U W Y K Z I I I K L W S\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 10,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nP S K Y A O X B H C\nT Y Z V T M K X A T\nD P R O Z K K K Y J\nR X K W M K K K N G\nB V B T D K K K K I\nB M I D X M P E A K\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 7,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nT W V B X J K X O X O L Q\nI T T I S N S T N P L H H\nE W R A K B T F X N V Z X\nM Y R R R H Q E C F P N B\nR A R R R K I C Q P E E Q\nV O R R R O Z O E P H X X\nW W S Q W A K P Y B Z R U\nF K R W Q E N O W K F Z R\nB Z X W V L C X G I H X F\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 4,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nS L R S D A J D K K\nD Z O T M N O I I L\nT J X K F F F F F W\nQ Z A A F F F F F Q\nL W R U F F F F F S\nY M X M F F F F F N\nP E I E F F F F F F\nX F K C W J R W N P\nS B P M V J S S L L\nC S M U Z U U T F W\nE R J A S P T Z L S\nX C L R Y L B X W I\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 6,
+      "column": 8,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nI L R J T P Z C D J B L H X M\nQ N D D G T L R Z N G V E Y T\nA K C X R D J E V L H Y A U P\nJ Z R L V U H G Q F T N K H U\nI Y B R V X M B P T K T M T G\nN W X Z F M C C C C L C L Y V\nN S N T G P C C C C D Q D G F\nE Z V Q M L C C C C C P F R H\nC K C O P U C C C C K D H Q I\nR H B H B H W M O F T J C A E\nO T E Q W Z U L S M R C L H I\nO E C S Y M M V L L W U B X F\nL Z G G S M E P N B S L L W R\nZ R Z G R M Y K L X A V H N Z\nJ W R L O C G R Z X S F B Z I\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 8,
+      "column": 9,
+      "complexity": 3
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nG S J W E M Y Y C\nC U A B N Z Y L N\nE L F F F F Y E W\nY B F F F F M V T\nH P F F F F R N H\nN K F F F F L D R\nZ X C Y I W D V W\nO L H K U Y K U P\nW W W A M R S F D\nC C R C A P L A X\nW V C L Q T O J X\nE K F P G O D R G\nG A I B I A M A C\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 5,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nT N G F I M O\nI U G I C S V\nI N U Z R Y C\nV V Y A G O R\nY N Z Y D M V\nP W S X C E K\nQ B W P O A D\nN Z C P T C N\nJ A M Z H E J\nS Q O Z B P B\nX X X U C C O\nX X X O J U R\nX X X O L R H\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 12,
+      "column": 2,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nI I Z Q A R L S E T F F I J Z\nS S S S S H P V T L D C C X J\nE S S S S Z H Q G H Q I O E A\nR S S S S E Y X F M G F K R V\nX S S S S A K O M Z B E P T B\nA Y R E A W H K Z Y Q E Z W C\nN F B E C K H M W A L R X P K\nH R L U Q B G I U E Y T M S Z\nL E V S U X L H V U R V Q O O\nQ I T C T C S V B O B I F B B\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 4,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nT Q P W M D P W\nO S C T A O Y B\nF M Q Q L I S R\nK Y D P B W E A\nO I C U X S H I\nR H H H C L T I\nK H H H G Z E W\nX H H H L Z M D\nS W O X E V H Y\nR S I W J O I Z\nW V O X X N W S\nL D X Q O T C N\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 3,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nI L M W Y Q C P Z X J M\nA I L Q Q Q Q Q X H V B\nQ I G Q Q Q Q Q M R G T\nD K V Q Q Q Q Q Z U C R\nH W S Q Q Q Q Q N U T E\nN T C Q Q Q Q Q V L E Z\nS V B A C Y M Q S N P E\nM D U L P V G N K X Y P\nN T Y D R D V K U L K F\nV X P A F H O B W U K K\nE P E J Z P F O L N F T\nG A A X M R K P P A C P\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 5,
+      "column": 7,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nH U A A I W X X F A K C J I\nQ S W F P A B I P V V R J I\nT N Z Z U X M C B G B G X U\nS B F J V M U N V Y L B N P\nX G S A G Q V K B E W L J B\nS N K M X F P H F V N U S R\nI O R N R W F K R P H K N D\nY Y E X B G V G G G G G Q Y\nM W G E N T F G G G G G B Q\nS G D S Q G I G G G G G A B\nZ I P L V S X G G G G G C Z\nK H B A X N Y G G G G G T O\nI H U I V W X A I A Y Z W F\nG B Z R V B L R Q X P G U O\nD M Z G Z F F D M E W X R Q\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 11,
+      "column": 11,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nK G H D K T M T X T\nX N B F Q L R J Z K\nD T Y W U G J J K F\nC L X M W X U J E B\nJ D G V R R L V Z N\nI P T M B L U T F B\nY R X P H H H H H E\nN X M N H H H H H C\nL O C P H H H H H V\nN C L X H H H H H L\nM I P E H H H H H F\nK L C Z A Y G V W Z\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 10,
+      "column": 8,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nA S U A X S D F L\nW X M U N C X F E\nE B B P S N Y Z N\nF T J O V O D P E\nF Y Q I R P N L Y\nS W J Y X C P V P\nK O Q D C G Z B U\nF Y L X F E Z S H\nE W O J R X O E X\nO H H H S U V X G\nY H H H E S X I J\nH H H H I I R W U\nE O B M B Y F T K\nB H Z I Z O X A V\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 11,
+      "column": 3,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nG R Z K I V\nC J H B Y K\nB L L Q U X\nU O R Q T R\nZ E L O O O\nX J J O O O\nC Y M O O O\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 6,
+      "column": 5,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nU Y R Z D D D E\nH S Z Z D D D C\nH H O Z D D D U\nC O C B E O Q D\nS W F W N R R G\nY V A W O J D W\nL N U I T G A Z\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 2,
+      "column": 6,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nN G U O U K G C Z N Z\nF H V R D X T N P V T\nB B B Y T T D B F Z F\nB B B S Q U K M R H C\nB B B E H V U U H N B\nF O S R Y S U C K N N\nI X J G S Y B K M E B\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 4,
+      "column": 2,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nY L I F T Q D Y F I V X L V\nF S H W Y J X R I T I R B H\nT T X X R P G N I F Q T N A\nD T C N U V G E D E J Z M R\nK S B R S N V W S D K Y W J\nM H P E A D M V X N E E E P\nD Y K V Q H N U A X E E E A\nZ G D R D M F Z M B E E E W\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 7,
+      "column": 12,
+      "complexity": 4
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nA O B P P A X C A D Q J F\nI Z T H D V T T Q M T W S\nU L H O E R K P Z P C H A\nS H P N Z B D P C K G B T\nG F O O O Q K A O U O F E\nP C O O O G M H Y J R J K\nG L O O O I I J W W P I Q\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 6,
+      "column": 4,
+      "complexity": 5
+    }
+  },
+  {
+    "question": "Given a character matrix, your task is to identify the positions of all squares with a length of at least 3 and output the row and column numbers of the bottom-right corner of these squares. The squares are composed of the same character, and each side has a length of at least 3.\n\nIf the matrix is\n\nR L L L Q A K G G V\nH L L L R U Z X P H\nN L L L N J F V P J\nE V P B O P H H T A\nG R Q Y K V Y Y H Q\nY G R N K Y R H Y E\nJ E M A S L F I Q N\n\nPlease provide the row and column of the bottom-right vertex of the square in the character matrix with a side length of at least 3 (the answer is unique). Notice: All coordinates start from 0.  \n\nYour answer should be in the format <<<[row, column]>>>.",
+    "solution": {
+      "row": 2,
+      "column": 3,
+      "complexity": 5
+    }
+  }
+]

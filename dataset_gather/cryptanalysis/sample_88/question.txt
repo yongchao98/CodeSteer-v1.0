@@ -1,0 +1,19 @@
+Please deduce the correct password based on the following 16 known conditions:
+A certain combination lock consists of two numbers and two letters, with neither the numbers nor the letters repeating.
+1. Guess: 34DU, Feedback: both numbers are incorrect; both letters are incorrect.
+2. Guess: 24IT, Feedback: both numbers are incorrect; one letter is correct but in the wrong position; one letter is incorrect and too early in the alphabet.
+3. Guess: 49XE, Feedback: both numbers are incorrect; both letters are incorrect.
+4. Guess: 12RO, Feedback: both numbers are incorrect; both letters are incorrect and too early in the alphabet.
+5. Guess: 07BS, Feedback: one number is correct but in the wrong position; one number is incorrect and too large; both letters are incorrect and too early in the alphabet.
+6. Guess: 42MA, Feedback: both numbers are incorrect; both letters are incorrect and too early in the alphabet.
+7. Guess: 38QT, Feedback: both numbers are incorrect; one letter is correct but in the wrong position; one letter is incorrect and too early in the alphabet.
+8. Guess: 90AP, Feedback: one number is correct and in the correct position; one number is incorrect and too large; both letters are incorrect and too early in the alphabet.
+9. Guess: 43JA, Feedback: both numbers are incorrect; both letters are incorrect and too early in the alphabet.
+10. Guess: 76MO, Feedback: one number is correct but in the wrong position; one number is incorrect and too large; both letters are incorrect and too early in the alphabet.
+11. Guess: 90IF, Feedback: one number is correct and in the correct position; one number is incorrect and too large; both letters are incorrect and too early in the alphabet.
+12. Guess: 10JM, Feedback: one number is correct and in the correct position; one number is incorrect and incorrect; both letters are incorrect and too early in the alphabet.
+13. Guess: 78RF, Feedback: both numbers are incorrect and too large; both letters are incorrect and too early in the alphabet.
+14. Guess: 30YM, Feedback: one number is correct and in the correct position; one number is incorrect and incorrect; both letters are incorrect.
+15. Guess: 89JH, Feedback: both numbers are incorrect and too large; both letters are incorrect and too early in the alphabet.
+16. Guess: 20KV, Feedback: one number is correct and in the correct position; one number is incorrect and incorrect; one letter is correct and in the correct position; one letter is incorrect and too early in the alphabet.
+Please provide your answer in the format <<< ["X", "Y", "Z", "W"] >>> where X and Y are the numbers and Z and W are the letters of the password.

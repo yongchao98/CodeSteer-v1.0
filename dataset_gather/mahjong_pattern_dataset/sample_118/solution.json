@@ -1,0 +1,23 @@
+{
+  "initial_cards": "WPQRLORTQPMNH",
+  "rounds": [
+    {
+      "add": "P",
+      "remove": "O"
+    },
+    {
+      "add": "R",
+      "remove": "Q"
+    },
+    {
+      "add": "P",
+      "remove": "R"
+    },
+    {
+      "add": "T",
+      "remove": "P"
+    }
+  ],
+  "solution": 0,
+  "complexity": 4
+}

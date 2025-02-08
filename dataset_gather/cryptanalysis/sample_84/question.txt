@@ -1,0 +1,20 @@
+Please deduce the correct password based on the following 17 known conditions:
+A certain combination lock consists of two numbers and two letters, with neither the numbers nor the letters repeating.
+1. Guess: 17SW, Feedback: both numbers are incorrect; both letters are incorrect and too late in the alphabet.
+2. Guess: 17DW, Feedback: both numbers are incorrect; both letters are incorrect.
+3. Guess: 05ID, Feedback: both numbers are incorrect; both letters are incorrect and too early in the alphabet.
+4. Guess: 06MG, Feedback: one number is correct but in the wrong position; one number is incorrect and too small; both letters are incorrect.
+5. Guess: 70RQ, Feedback: both numbers are incorrect; both letters are incorrect and too late in the alphabet.
+6. Guess: 23CM, Feedback: one number is correct and in the correct position; one number is incorrect and too small; both letters are incorrect.
+7. Guess: 42YF, Feedback: both numbers are incorrect; both letters are incorrect.
+8. Guess: 57YU, Feedback: both numbers are incorrect; both letters are incorrect and too late in the alphabet.
+9. Guess: 43AG, Feedback: one number is correct and in the correct position; one number is incorrect and incorrect; both letters are incorrect and too early in the alphabet.
+10. Guess: 46EB, Feedback: one number is correct but in the wrong position; one number is incorrect and incorrect; both letters are incorrect and too early in the alphabet.
+11. Guess: 43OB, Feedback: one number is correct and in the correct position; one number is incorrect and incorrect; both letters are incorrect.
+12. Guess: 83LK, Feedback: one number is correct and in the correct position; one number is incorrect and too large; one letter is correct but in the wrong position; one letter is incorrect and incorrect.
+13. Guess: 45UW, Feedback: both numbers are incorrect; both letters are incorrect and too late in the alphabet.
+14. Guess: 70EU, Feedback: both numbers are incorrect; both letters are incorrect.
+15. Guess: 03GE, Feedback: one number is correct and in the correct position; one number is incorrect and too small; both letters are incorrect and too early in the alphabet.
+16. Guess: 26VO, Feedback: one number is correct but in the wrong position; one number is incorrect and too small; both letters are incorrect and too late in the alphabet.
+17. Guess: 28IK, Feedback: both numbers are incorrect; one letter is correct but in the wrong position; one letter is incorrect and too early in the alphabet.
+Please provide your answer in the format <<< ["X", "Y", "Z", "W"] >>> where X and Y are the numbers and Z and W are the letters of the password.

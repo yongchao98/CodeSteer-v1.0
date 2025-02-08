@@ -1,0 +1,1 @@
+What is the result of -5*-79*57*8192?

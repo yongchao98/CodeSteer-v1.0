@@ -1,0 +1,27 @@
+{
+  "initial_cards": "AJDOSHAKELEOB",
+  "rounds": [
+    {
+      "add": "A",
+      "remove": "O"
+    },
+    {
+      "add": "A",
+      "remove": "A"
+    },
+    {
+      "add": "U",
+      "remove": "K"
+    },
+    {
+      "add": "N",
+      "remove": "L"
+    },
+    {
+      "add": "A",
+      "remove": "D"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

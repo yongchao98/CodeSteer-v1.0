@@ -1,0 +1,30 @@
+{
+  "initial_string": "abacbbbcbbbacbcacba",
+  "selected_rules": [
+    "If the string starts with 'bb', remove the second character.",
+    "If the string contains 'acb', replace the first occurrence with its reverse ('bca').",
+    "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character.",
+    "If the string contains an even number of 'b's (and at least one 'b'), append 'ab' at the end.",
+    "If the string prefix is 'ab', replace it with 'ca'.",
+    "If the string prefix is 'ca', replace it with 'bb' and append 'c' to the end."
+  ],
+  "intermediate_states": [
+    "abacbbbcbbbacbcacba",
+    "abbcabbcbbbacbcacba",
+    "abbcabbcbbbbcacacba",
+    "abbcabbcbbbbcacbcaa",
+    "abbcabbcbbbbcbcacaa",
+    "abbbbcbbbbcbcacaa",
+    "abbbbcbbbbcbcaa",
+    "abbbbcbbbbcba",
+    "cabbbcbbbbcba",
+    "cabbbcbbbbcbaab",
+    "bbbbbcbbbbcbaabc",
+    "bbbbcbbbbcbaabc",
+    "bbbcbbbbcbaabc",
+    "bbcbbbbcbaabc",
+    "bcbbbbcbaabc"
+  ],
+  "final_string": "bcbbbbcbaabc",
+  "complexity": 5
+}

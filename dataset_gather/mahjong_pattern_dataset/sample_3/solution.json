@@ -1,0 +1,11 @@
+{
+  "initial_cards": "ISZTWVHUUXWKC",
+  "rounds": [
+    {
+      "add": "P",
+      "remove": "W"
+    }
+  ],
+  "solution": 0,
+  "complexity": 1
+}

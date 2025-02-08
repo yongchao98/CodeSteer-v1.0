@@ -1,0 +1,27 @@
+{
+  "initial_cards": "WETWUCCPFNAIZ",
+  "rounds": [
+    {
+      "add": "W",
+      "remove": "I"
+    },
+    {
+      "add": "N",
+      "remove": "W"
+    },
+    {
+      "add": "C",
+      "remove": "E"
+    },
+    {
+      "add": "G",
+      "remove": "Z"
+    },
+    {
+      "add": "M",
+      "remove": "A"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

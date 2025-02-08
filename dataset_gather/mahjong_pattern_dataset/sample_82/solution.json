@@ -1,0 +1,27 @@
+{
+  "initial_cards": "RESMSABPXGYTF",
+  "rounds": [
+    {
+      "add": "G",
+      "remove": "P"
+    },
+    {
+      "add": "T",
+      "remove": "R"
+    },
+    {
+      "add": "S",
+      "remove": "A"
+    },
+    {
+      "add": "H",
+      "remove": "S"
+    },
+    {
+      "add": "B",
+      "remove": "M"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

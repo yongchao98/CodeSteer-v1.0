@@ -1,0 +1,19 @@
+There is an n*n grid with some lights randomly distributed. A lit light is represented by 1, and an unlit light is represented by 0. There are some buttons which can change the state of the lights in certain positions when they are pressed, like turning some lights on or off. Different buttons may control the state of the same light.
+Given n=5 and the number of buttons=3, the initial network is:
+10110
+11001
+00101
+11101
+11001
+
+Button A controls the lights at ["3", "3"], ["5", "2"], ["4", "1"], ["3", "4"], ["3", "2"], ["2", "1"], ["5", "1"]
+Button B controls the lights at ["2", "2"], ["1", "4"], ["4", "1"], ["4", "2"], ["5", "2"], ["3", "4"], ["1", "2"], ["1", "1"], ["2", "5"], ["4", "4"]
+Button C controls the lights at ["3", "2"], ["5", "4"], ["1", "3"], ["2", "1"], ["4", "4"], ["2", "4"], ["1", "2"], ["2", "5"], ["5", "5"]
+
+Round 1: Button C
+Round 2: Button A
+Round 3: Button B
+Round 4: Button C
+
+Please write the result after all rounds of operation based on the lights controlled by the button.
+For example, <<<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>>> represents a fully unlit light network.

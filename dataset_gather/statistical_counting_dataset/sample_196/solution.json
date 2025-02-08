@@ -1,0 +1,42 @@
+{
+  "sequence": "GEDBEGAAEGEEGACDBCAFCAEABBAEGDCFBACDEECGADEDECDAGGGDBCEBCBCEFEDFF",
+  "rules": [
+    {
+      "letter": "A",
+      "score": 1,
+      "min_consecutive": 2
+    },
+    {
+      "letter": "B",
+      "score": 2,
+      "min_consecutive": 2
+    },
+    {
+      "letter": "C",
+      "score": 3,
+      "min_consecutive": 2
+    },
+    {
+      "letter": "D",
+      "score": 4,
+      "min_consecutive": 2
+    },
+    {
+      "letter": "E",
+      "score": 5,
+      "min_consecutive": 2
+    },
+    {
+      "letter": "F",
+      "score": 6,
+      "min_consecutive": 2
+    },
+    {
+      "letter": "G",
+      "score": 7,
+      "min_consecutive": 2
+    }
+  ],
+  "solution": 26,
+  "complexity": 5
+}

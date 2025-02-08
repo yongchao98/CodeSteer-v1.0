@@ -1,0 +1,21 @@
+{
+  "initial_string": "abbbaaabcacbcbbcaba",
+  "selected_rules": [
+    "If the string contains 'abc', replace the first occurrence with 'cab'.",
+    "If the string starts with 'ac', replace the first two characters with 'zz'.",
+    "If the string contains 'acb', replace the first occurrence with its reverse ('bca').",
+    "If the string contains an even number of 'b's (and at least one 'b'), append 'ab' at the end.",
+    "If the string suffix is 'cc', replace it with 'b' and prepend 'a' to the start.",
+    "If the string ends with 'ba', replace it with 'ab'."
+  ],
+  "intermediate_states": [
+    "abbbaaabcacbcbbcaba",
+    "abbbaacabacbcbbcaba",
+    "abbbaacabbcacbbcaba",
+    "abbbaacabbcbcabcaba",
+    "abbbaacabbcbccababa",
+    "abbbaacabbcbccababaab"
+  ],
+  "final_string": "abbbaacabbcbccababaab",
+  "complexity": 5
+}

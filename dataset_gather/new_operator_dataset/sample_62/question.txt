@@ -1,0 +1,6 @@
+Let x and y represent two numbers. The new operations $, @ and & are defined as follows:
+Let a and b be numbers. Define a$b to be 3*a+2*b.
+Let a and b be numbers. Define a@b to be 2*a*b.
+Let a and b be numbers. Define a&b to be 3*a+4*b.
+Calculate (3$4)@5&6.
+Return your answer with format <<<list of values and symbols>>>

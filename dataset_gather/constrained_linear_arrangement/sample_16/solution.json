@@ -1,0 +1,22 @@
+{
+  "game_type": "stick_game",
+  "player_moves": [
+    "A",
+    "D",
+    "C",
+    "B"
+  ],
+  "solution": [
+    "C",
+    "B",
+    "D",
+    "A"
+  ],
+  "results": [
+    "draw",
+    "draw",
+    "win",
+    "loss"
+  ],
+  "complexity": 5
+}

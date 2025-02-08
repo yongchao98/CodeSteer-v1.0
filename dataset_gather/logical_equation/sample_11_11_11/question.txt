@@ -1,0 +1,14 @@
+Calculate the number for each letter based on the range and set of inequalities that the given letter represents. There are 11 letters A, B, C, D, E, F, G, H, I, J, K, each representing one of the numbers 3, 9, 16, 20, 39, 48, 75, 80, 121, 150, 225. The system of inequalities is satisfied as follows:
+1. J + K = 271
+2. G > I
+3. E + J = 141
+4. A + C = 300
+5. G + K = 230
+6. B - K = -141
+7. D - C = -209
+8. A + I = 78
+9. F - D = 23
+10. E - H = -28
+11. H + K = 198
+
+Return the answers in alphabetical order starting with A, and each element in the list represents the value of the corresponding letter. Return your answer with the format <<<list of values>>>, like <<<[1, 2, 3]>>> means that A represents 1, B represents 2, and C represents 3.

@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "V",
+      "N",
+      "O"
+    ],
+    [
+      "O",
+      "D",
+      "W"
+    ],
+    [
+      "G",
+      "E",
+      "R"
+    ]
+  ],
+  "solution": [
+    [
+      "G",
+      "O",
+      "V"
+    ],
+    [
+      "E",
+      "D",
+      "N"
+    ],
+    [
+      "R",
+      "W",
+      "O"
+    ]
+  ],
+  "formatted_solution": "G,O,V,E,D,N,R,W,O",
+  "complexity": 3
+}

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "HNTPXIFELBJOW",
+  "rounds": [
+    {
+      "add": "Y",
+      "remove": "B"
+    },
+    {
+      "add": "S",
+      "remove": "X"
+    },
+    {
+      "add": "R",
+      "remove": "T"
+    },
+    {
+      "add": "K",
+      "remove": "N"
+    },
+    {
+      "add": "G",
+      "remove": "E"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

@@ -1,0 +1,19 @@
+{
+  "initial_cards": "OSJGVLTQGXAHZ",
+  "rounds": [
+    {
+      "add": "C",
+      "remove": "G"
+    },
+    {
+      "add": "I",
+      "remove": "S"
+    },
+    {
+      "add": "H",
+      "remove": "G"
+    }
+  ],
+  "solution": 2,
+  "complexity": 3
+}

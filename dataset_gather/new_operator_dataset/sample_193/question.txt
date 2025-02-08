@@ -1,0 +1,3 @@
+Let a and b be numbers. Define a~b to be 5*a*b.
+Calculate (8~6)~2.
+Return your answer with format <<<list of values and symbols>>>

@@ -1,0 +1,23 @@
+{
+  "initial_cards": "JVTGCAUISFBCR",
+  "rounds": [
+    {
+      "add": "C",
+      "remove": "C"
+    },
+    {
+      "add": "H",
+      "remove": "S"
+    },
+    {
+      "add": "C",
+      "remove": "R"
+    },
+    {
+      "add": "V",
+      "remove": "C"
+    }
+  ],
+  "solution": 2,
+  "complexity": 4
+}

@@ -1,0 +1,9 @@
+{
+  "solution": 30.0,
+  "complexity": 5,
+  "operator_definitions": {
+    "#": "(a + b)/b",
+    "~": "3*a+5*b",
+    "&": "1*a*b"
+  }
+}

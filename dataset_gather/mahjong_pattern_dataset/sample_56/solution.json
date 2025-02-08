@@ -1,0 +1,27 @@
+{
+  "initial_cards": "WQGGZRWZDNQXF",
+  "rounds": [
+    {
+      "add": "P",
+      "remove": "F"
+    },
+    {
+      "add": "G",
+      "remove": "Z"
+    },
+    {
+      "add": "W",
+      "remove": "Q"
+    },
+    {
+      "add": "T",
+      "remove": "D"
+    },
+    {
+      "add": "G",
+      "remove": "W"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

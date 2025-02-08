@@ -1,0 +1,27 @@
+{
+  "initial_cards": "VUINWATZHPRPQ",
+  "rounds": [
+    {
+      "add": "P",
+      "remove": "A"
+    },
+    {
+      "add": "J",
+      "remove": "R"
+    },
+    {
+      "add": "W",
+      "remove": "J"
+    },
+    {
+      "add": "P",
+      "remove": "T"
+    },
+    {
+      "add": "J",
+      "remove": "I"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

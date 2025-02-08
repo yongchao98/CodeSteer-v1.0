@@ -1,0 +1,24 @@
+{
+  "items": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "constraints_text": "1. Book E cannot be placed in position 3.\n2. Book A must be adjacent to book E.\n3. Book D cannot be placed in position 8.\n4. Book D must be to the right of book G.\n5. Book B cannot be placed in position 1.\n6. Book B must be adjacent to book G.\n7. Book D must be to the right of book B.\n8. Book F must be adjacent to book A.\n9. Book D must be adjacent to book F.\n10. Book G must be placed in position 3.",
+  "correct_solution": [
+    "C",
+    "B",
+    "G",
+    "D",
+    "F",
+    "A",
+    "E",
+    "H"
+  ],
+  "complexity": 9
+}

@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "G",
+      "C",
+      "Q"
+    ],
+    [
+      "C",
+      "Y",
+      "I"
+    ],
+    [
+      "O",
+      "D",
+      "V"
+    ]
+  ],
+  "solution": [
+    [
+      "O",
+      "C",
+      "G"
+    ],
+    [
+      "D",
+      "Y",
+      "C"
+    ],
+    [
+      "V",
+      "I",
+      "Q"
+    ]
+  ],
+  "formatted_solution": "O,C,G,D,Y,C,V,I,Q",
+  "complexity": 3
+}

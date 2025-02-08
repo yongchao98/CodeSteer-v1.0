@@ -1,0 +1,19 @@
+{
+  "initial_cards": "TWWZFUUVIMPYB",
+  "rounds": [
+    {
+      "add": "T",
+      "remove": "V"
+    },
+    {
+      "add": "R",
+      "remove": "W"
+    },
+    {
+      "add": "I",
+      "remove": "F"
+    }
+  ],
+  "solution": 0,
+  "complexity": 3
+}

@@ -1,0 +1,22 @@
+{
+  "initial_string": "bbaaacccaaccabbca",
+  "selected_rules": [
+    "If the string suffix is 'bb', delete the last two characters.",
+    "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character.",
+    "If the string suffix is 'cc', replace it with 'b' and prepend 'a' to the start.",
+    "If the string suffix is 'ac', replace it with 'cb'.",
+    "If the string ends with 'ca', remove the last character.",
+    "If the string prefix is 'cb', replace it with 'aa' and delete the last character."
+  ],
+  "intermediate_states": [
+    "bbaaacccaaccabbca",
+    "bbaaaccaccabbca",
+    "bbaaacccabbca",
+    "bbaaaccbbca",
+    "bbaaaccbb",
+    "bbaaacc",
+    "abbaaab"
+  ],
+  "final_string": "abbaaab",
+  "complexity": 5
+}

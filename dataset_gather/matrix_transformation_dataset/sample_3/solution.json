@@ -1,0 +1,24 @@
+{
+  "matrix": [
+    [
+      "Z",
+      "K"
+    ],
+    [
+      "Y",
+      "L"
+    ]
+  ],
+  "solution": [
+    [
+      "Y",
+      "Z"
+    ],
+    [
+      "L",
+      "K"
+    ]
+  ],
+  "formatted_solution": "Y,Z,L,K",
+  "complexity": 2
+}

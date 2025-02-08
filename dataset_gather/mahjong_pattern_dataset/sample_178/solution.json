@@ -1,0 +1,27 @@
+{
+  "initial_cards": "OIQXJALEGNYGE",
+  "rounds": [
+    {
+      "add": "G",
+      "remove": "Y"
+    },
+    {
+      "add": "E",
+      "remove": "G"
+    },
+    {
+      "add": "G",
+      "remove": "L"
+    },
+    {
+      "add": "E",
+      "remove": "E"
+    },
+    {
+      "add": "E",
+      "remove": "X"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

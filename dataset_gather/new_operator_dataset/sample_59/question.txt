@@ -1,0 +1,3 @@
+Let a and b be numbers. Define a%b to be (a + b)/b.
+Calculate (4%3)%8.
+Return your answer with format <<<list of values and symbols>>>

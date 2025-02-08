@@ -1,0 +1,27 @@
+{
+  "initial_cards": "QYIFGSOURPMNW",
+  "rounds": [
+    {
+      "add": "G",
+      "remove": "S"
+    },
+    {
+      "add": "H",
+      "remove": "Y"
+    },
+    {
+      "add": "J",
+      "remove": "F"
+    },
+    {
+      "add": "Q",
+      "remove": "P"
+    },
+    {
+      "add": "B",
+      "remove": "U"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

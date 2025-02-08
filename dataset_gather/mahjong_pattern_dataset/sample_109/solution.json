@@ -1,0 +1,19 @@
+{
+  "initial_cards": "KSOGFRYPLIKJN",
+  "rounds": [
+    {
+      "add": "L",
+      "remove": "J"
+    },
+    {
+      "add": "S",
+      "remove": "L"
+    },
+    {
+      "add": "G",
+      "remove": "S"
+    }
+  ],
+  "solution": 0,
+  "complexity": 3
+}

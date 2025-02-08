@@ -1,0 +1,17 @@
+Xiao Wang is a librarian responsible for shelving 7 books labeled A, B, C, D, E, F, G on a shelf with positions 1 to 7.
+
+The constraints are:
+1. Book C cannot be placed in position 3.
+2. Book A cannot be placed in position 1.
+3. Book C cannot be placed in position 5.
+4. Book E must be placed in position 5.
+5. Book E must be to the left of book F.
+6. Book A cannot be placed in position 6.
+7. Book D must be adjacent to book B.
+8. Book B must be to the left of book C.
+9. Book D must be to the left of book C.
+
+Question:
+Based on the above conditions, please arrange the 7 books from left to right on the bookshelf, i.e. positions 1 through 7. Return your answer with the format <<< a list of strings >>>, one solution is enough.for example:
+<<<["A", "B", "C"]>>>
+Your answer:

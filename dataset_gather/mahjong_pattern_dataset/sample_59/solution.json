@@ -1,0 +1,27 @@
+{
+  "initial_cards": "DTRKLKQUNXOME",
+  "rounds": [
+    {
+      "add": "F",
+      "remove": "K"
+    },
+    {
+      "add": "G",
+      "remove": "Q"
+    },
+    {
+      "add": "U",
+      "remove": "R"
+    },
+    {
+      "add": "G",
+      "remove": "E"
+    },
+    {
+      "add": "F",
+      "remove": "T"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

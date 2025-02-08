@@ -1,0 +1,27 @@
+{
+  "initial_cards": "SRUHPCKDPLDQE",
+  "rounds": [
+    {
+      "add": "O",
+      "remove": "D"
+    },
+    {
+      "add": "Q",
+      "remove": "K"
+    },
+    {
+      "add": "F",
+      "remove": "O"
+    },
+    {
+      "add": "D",
+      "remove": "S"
+    },
+    {
+      "add": "P",
+      "remove": "E"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

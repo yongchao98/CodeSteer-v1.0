@@ -1,0 +1,13 @@
+Given a 9*9 grid where each cell contains a number (between -17 to 18), you must select 20 different numbers from these cells. The product of each row and column of the selected number must be greater than 0. The numbers in the same row are separated by ',', and the coordinate system uses the top-left cell as the coordinate (1,1), with the horizontal coordinate under the top-left cell increasing and the vertical coordinate to the right of the top-left cell increasing.
+Using the number 1 in the top-rightmost square (0,8) as the first selected number
+17, 13, -13, -7, 10, 13, 11, -7, 1
+15, 17, -12, 4, 10, -17, 2, 12, -12
+7, 14, 8, 7, 7, 8, 6, -17, 11
+9, 11, 4, 5, 1, -2, -8, 18, 15
+10, 16, 1, 17, 10, 11, 10, -2, 5
+15, 15, 17, -4, 3, -6, 15, 1, -2
+4, 2, -2, 15, 15, 14, 15, -12, -12
+17, -11, 15, 14, 5, 3, 1, 7, 14
+18, -1, 15, 3, 1, -13, 17, 6, 4
+
+Return your answer with the format <<<list of selected number positions>>>, where each position is given as row column (0-based indices). For example, <<<0 3, 1 0, 2 4>>> means numbers selected are at positions (0,3), (1,0), and (2,4).

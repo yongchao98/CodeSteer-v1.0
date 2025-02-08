@@ -1,0 +1,27 @@
+{
+  "initial_cards": "TLYLRKDTNXMVH",
+  "rounds": [
+    {
+      "add": "D",
+      "remove": "T"
+    },
+    {
+      "add": "D",
+      "remove": "D"
+    },
+    {
+      "add": "O",
+      "remove": "L"
+    },
+    {
+      "add": "N",
+      "remove": "X"
+    },
+    {
+      "add": "P",
+      "remove": "N"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

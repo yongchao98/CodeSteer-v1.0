@@ -1,0 +1,27 @@
+{
+  "initial_cards": "GAWRMZMPOWJHV",
+  "rounds": [
+    {
+      "add": "J",
+      "remove": "R"
+    },
+    {
+      "add": "W",
+      "remove": "Z"
+    },
+    {
+      "add": "P",
+      "remove": "P"
+    },
+    {
+      "add": "M",
+      "remove": "O"
+    },
+    {
+      "add": "W",
+      "remove": "J"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

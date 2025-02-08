@@ -1,0 +1,27 @@
+{
+  "initial_cards": "DTACSYMCOMJKL",
+  "rounds": [
+    {
+      "add": "M",
+      "remove": "M"
+    },
+    {
+      "add": "G",
+      "remove": "A"
+    },
+    {
+      "add": "C",
+      "remove": "M"
+    },
+    {
+      "add": "M",
+      "remove": "L"
+    },
+    {
+      "add": "J",
+      "remove": "M"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

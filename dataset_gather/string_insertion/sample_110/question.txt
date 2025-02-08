@@ -1,0 +1,10 @@
+Given the string consisting of characters A, B, C, D, and E, define the T operation as follows:
+
+1. If there is a substring ABCD in the string, insert the character A after that substring.
+2. If there is a substring BCDE in the string, insert the character B after that substring.
+3. If there is a substring CDEA in the string, insert the character C after that substring.
+4. If there is a substring DEAB in the string, insert the character D after that substring.
+5. If there is a substring EABC in the string, insert the character E after that substring.
+
+Question: Given the string DDEABDBCDEDABCD, what will the string be after one operation T? String insertion from left to right.
+Return the answer with the format <<<a string>>>.

@@ -1,0 +1,17 @@
+There are several letter cards, and the game rules are as follows:1. Initially, there are 13 cards.
+2. Each time, a new card is added, and a result is determined. Then, one card is removed.
+3. When there are two identical cards in hand, and the newly added card is the same as these two cards, the result is determined as "Peng," represented by the number 1.
+4. If two cards in hand and the new card can form a consecutive letter sequence, the result is determined as "Chi," represented by the number 2. For example, ABC, OPQ, etc.
+5. If the new card does not meet the conditions of 3 and 4, the result is determined as "Pass," represented by the number 0.
+6. "Peng" takes precedence over "Chi."
+7. The card that is removed does not affect the result determination.
+Given the initial cards:XOSVPSIXGHVAB
+
+Round 1: Add a S card and remove a A card.
+Round 2: Add a Z card and remove a P card.
+Round 3: Add a I card and remove a X card.
+Round 4: Add a I card and remove a H card.
+Round 5: Add a V card
+
+Based on the above information, determine the number judged in the final round.
+Return your answer with the format <<<x>>>, where x is 0 for Pass, 1 for Peng, or 2 for Chi.

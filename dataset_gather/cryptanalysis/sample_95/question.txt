@@ -1,0 +1,18 @@
+Please deduce the correct password based on the following 15 known conditions:
+A certain combination lock consists of two numbers and two letters, with neither the numbers nor the letters repeating.
+1. Guess: 79AG, Feedback: one number is correct but in the wrong position; one number is incorrect and incorrect; both letters are incorrect.
+2. Guess: 15BN, Feedback: one number is correct and in the correct position; one number is incorrect and too small; both letters are incorrect.
+3. Guess: 46QN, Feedback: both numbers are incorrect; both letters are incorrect.
+4. Guess: 16BC, Feedback: both numbers are incorrect; both letters are incorrect and too early in the alphabet.
+5. Guess: 81BA, Feedback: both numbers are incorrect; both letters are incorrect and too early in the alphabet.
+6. Guess: 69IH, Feedback: one number is correct but in the wrong position; one number is incorrect and incorrect; both letters are incorrect.
+7. Guess: 05WO, Feedback: one number is correct and in the correct position; one number is incorrect and too small; both letters are incorrect.
+8. Guess: 74PV, Feedback: both numbers are incorrect; one letter is correct and in the correct position; one letter is incorrect and incorrect.
+9. Guess: 26BF, Feedback: both numbers are incorrect; both letters are incorrect.
+10. Guess: 63TH, Feedback: both numbers are incorrect; both letters are incorrect.
+11. Guess: 74HT, Feedback: both numbers are incorrect; both letters are incorrect.
+12. Guess: 63OY, Feedback: both numbers are incorrect; both letters are incorrect.
+13. Guess: 06XR, Feedback: both numbers are incorrect; both letters are incorrect.
+14. Guess: 63HS, Feedback: both numbers are incorrect; both letters are incorrect.
+15. Guess: 13EX, Feedback: both numbers are incorrect and too small; one letter is correct and in the correct position; one letter is incorrect and too late in the alphabet.
+Please provide your answer in the format <<< ["X", "Y", "Z", "W"] >>> where X and Y are the numbers and Z and W are the letters of the password.

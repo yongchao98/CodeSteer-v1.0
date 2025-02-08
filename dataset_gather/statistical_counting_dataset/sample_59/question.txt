@@ -1,0 +1,8 @@
+The initial total score is 0. Given a string consisting of letters A, B and C, scan from front to back:
+
+1. If there are two or more consecutive A's, add 1 to the total score.
+2. If there are two or more consecutive B's, add 2 to the total score.
+3. If there are two or more consecutive C's, add 3 to the total score.
+
+What is the total score of the string ACCBBBACCABACBCCCBCAAABCCBBBCBCCBCA?
+Return your answer with the format <<<number>>>, like <<<5>>> means the total score is 5.

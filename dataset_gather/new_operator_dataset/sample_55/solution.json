@@ -1,0 +1,7 @@
+{
+  "solution": 180.0,
+  "complexity": 2,
+  "operator_definitions": {
+    "%": "4*a+4*b"
+  }
+}

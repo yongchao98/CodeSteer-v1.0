@@ -1,0 +1,7 @@
+{
+  "solution": 206.0,
+  "complexity": 2,
+  "operator_definitions": {
+    "$": "5*a+3*b"
+  }
+}

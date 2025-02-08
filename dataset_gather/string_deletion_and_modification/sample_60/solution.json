@@ -1,0 +1,21 @@
+{
+  "initial_string": "acabacaccbccaab",
+  "selected_rules": [
+    "If the string contains 'bca', delete the first occurrence entirely.",
+    "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character.",
+    "If the string ends with 'aa', replace it with 'cc'.",
+    "If the string prefix is 'ab', replace it with 'ca'.",
+    "If the string suffix is 'ac', replace it with 'cb'.",
+    "If the string starts with 'cc', remove the first two characters."
+  ],
+  "intermediate_states": [
+    "acabacaccbccaab",
+    "abacaccbccaab",
+    "abaccbccaab",
+    "abaccbcab",
+    "abaccb",
+    "caaccb"
+  ],
+  "final_string": "caaccb",
+  "complexity": 5
+}

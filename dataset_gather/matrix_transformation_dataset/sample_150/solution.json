@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "X",
+      "E",
+      "P"
+    ],
+    [
+      "T",
+      "Z",
+      "S"
+    ],
+    [
+      "Z",
+      "U",
+      "K"
+    ]
+  ],
+  "solution": [
+    [
+      "Z",
+      "T",
+      "X"
+    ],
+    [
+      "U",
+      "Z",
+      "E"
+    ],
+    [
+      "K",
+      "S",
+      "P"
+    ]
+  ],
+  "formatted_solution": "Z,T,X,U,Z,E,K,S,P",
+  "complexity": 3
+}

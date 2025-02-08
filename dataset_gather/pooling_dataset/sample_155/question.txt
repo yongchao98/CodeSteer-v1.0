@@ -1,0 +1,7 @@
+In an N*N grid, there are N^2 numbers, with numbers in the same row separated by commas. We define the "average pooling" operation: suppose that there is an n*n (n<N) sliding window, which slides from left to right or from top to bottom in the matrix, calculating the average value in each sliding window. Then, the average values are arranged according to their original positions to form a new matrix for output.
+Now, please perform average pooling on the following matrix by using a 2*2 sliding window:
+16, -6, 15, -6
+-7, 16, -6, 13
+4, -9, 15, 13
+15, 18, -8, -10
+For example, <<<0,0,0,0>>> represents a 2D array.

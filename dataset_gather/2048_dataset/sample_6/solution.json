@@ -1,0 +1,19 @@
+{
+  "grid": [
+    [
+      0,
+      16
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "moves": "lu",
+  "start_pos": [
+    1,
+    1
+  ],
+  "solution": "0, 16\n2, 0",
+  "complexity": 1
+}

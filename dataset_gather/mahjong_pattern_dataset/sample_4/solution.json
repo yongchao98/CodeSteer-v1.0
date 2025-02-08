@@ -1,0 +1,15 @@
+{
+  "initial_cards": "ASCQPGYIKNVBD",
+  "rounds": [
+    {
+      "add": "I",
+      "remove": "D"
+    },
+    {
+      "add": "V",
+      "remove": "B"
+    }
+  ],
+  "solution": 0,
+  "complexity": 2
+}

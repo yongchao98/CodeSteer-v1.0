@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "L",
+      "F",
+      "R"
+    ],
+    [
+      "P",
+      "R",
+      "J"
+    ],
+    [
+      "U",
+      "U",
+      "O"
+    ]
+  ],
+  "solution": [
+    [
+      "U",
+      "P",
+      "L"
+    ],
+    [
+      "U",
+      "R",
+      "F"
+    ],
+    [
+      "O",
+      "J",
+      "R"
+    ]
+  ],
+  "formatted_solution": "U,P,L,U,R,F,O,J,R",
+  "complexity": 3
+}

@@ -1,0 +1,24 @@
+{
+  "matrix": [
+    [
+      "F",
+      "J"
+    ],
+    [
+      "U",
+      "T"
+    ]
+  ],
+  "solution": [
+    [
+      "U",
+      "F"
+    ],
+    [
+      "T",
+      "J"
+    ]
+  ],
+  "formatted_solution": "U,F,T,J",
+  "complexity": 2
+}

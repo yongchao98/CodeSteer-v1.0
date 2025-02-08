@@ -1,0 +1,24 @@
+{
+  "matrix": [
+    [
+      "I",
+      "Y"
+    ],
+    [
+      "Y",
+      "E"
+    ]
+  ],
+  "solution": [
+    [
+      "Y",
+      "I"
+    ],
+    [
+      "E",
+      "Y"
+    ]
+  ],
+  "formatted_solution": "Y,I,E,Y",
+  "complexity": 2
+}

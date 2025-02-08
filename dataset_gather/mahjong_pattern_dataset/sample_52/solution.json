@@ -1,0 +1,27 @@
+{
+  "initial_cards": "HFAZRDQNCLTBA",
+  "rounds": [
+    {
+      "add": "A",
+      "remove": "A"
+    },
+    {
+      "add": "C",
+      "remove": "A"
+    },
+    {
+      "add": "X",
+      "remove": "B"
+    },
+    {
+      "add": "U",
+      "remove": "Z"
+    },
+    {
+      "add": "E",
+      "remove": "N"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

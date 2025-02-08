@@ -1,0 +1,23 @@
+{
+  "initial_cards": "LBHKYWOMRFDSI",
+  "rounds": [
+    {
+      "add": "N",
+      "remove": "B"
+    },
+    {
+      "add": "V",
+      "remove": "D"
+    },
+    {
+      "add": "N",
+      "remove": "F"
+    },
+    {
+      "add": "Q",
+      "remove": "Y"
+    }
+  ],
+  "solution": 2,
+  "complexity": 4
+}

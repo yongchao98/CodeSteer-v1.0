@@ -1,0 +1,27 @@
+{
+  "initial_cards": "SDCBJJBLPELSN",
+  "rounds": [
+    {
+      "add": "S",
+      "remove": "S"
+    },
+    {
+      "add": "L",
+      "remove": "C"
+    },
+    {
+      "add": "S",
+      "remove": "B"
+    },
+    {
+      "add": "H",
+      "remove": "S"
+    },
+    {
+      "add": "S",
+      "remove": "S"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

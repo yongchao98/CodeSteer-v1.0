@@ -1,0 +1,27 @@
+{
+  "initial_cards": "TJGSUJZYSYFUX",
+  "rounds": [
+    {
+      "add": "T",
+      "remove": "X"
+    },
+    {
+      "add": "Y",
+      "remove": "U"
+    },
+    {
+      "add": "T",
+      "remove": "F"
+    },
+    {
+      "add": "V",
+      "remove": "T"
+    },
+    {
+      "add": "T",
+      "remove": "Y"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

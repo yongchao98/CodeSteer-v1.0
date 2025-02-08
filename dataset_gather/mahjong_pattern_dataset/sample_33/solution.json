@@ -1,0 +1,27 @@
+{
+  "initial_cards": "KVQRMFLUXTNWP",
+  "rounds": [
+    {
+      "add": "H",
+      "remove": "U"
+    },
+    {
+      "add": "M",
+      "remove": "W"
+    },
+    {
+      "add": "R",
+      "remove": "N"
+    },
+    {
+      "add": "M",
+      "remove": "K"
+    },
+    {
+      "add": "M",
+      "remove": "X"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

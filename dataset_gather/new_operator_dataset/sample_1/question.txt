@@ -1,0 +1,3 @@
+Let a and b be numbers. Define a&b to be 4*a+2*b.
+Calculate (5&3)&6.
+Return your answer with format <<<list of values and symbols>>>

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "PRDGDMXIFYPME",
+  "rounds": [
+    {
+      "add": "E",
+      "remove": "F"
+    },
+    {
+      "add": "P",
+      "remove": "M"
+    },
+    {
+      "add": "O",
+      "remove": "P"
+    },
+    {
+      "add": "D",
+      "remove": "O"
+    },
+    {
+      "add": "P",
+      "remove": "E"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

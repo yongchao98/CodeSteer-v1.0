@@ -1,0 +1,11 @@
+There is a dismantling engineer who has old machines A, B, and C. He discovered that he can obtain a batch of new parts X, Y, and Z through the following methods:
+Method 1: One unit of machine A can be dismantled into two units of part X and one unit of part Y per round.
+Method 2: Two units of machine B can be dismantled into one unit of part X per round.
+Method 3: Each round, two machines C break down into one part Y.
+Method 4: Combining one machine B and one machine C results in one machine A each cycle.
+Method 5: Each round, one part X and one part Y merge to form one part Z.
+
+Xiao Li continuously cycles through these methods in the given order, executing one method at a time. After Method 5, start again from Method 1. Continue this cycle until no method can be executed. Initially, there are 6 units of Machine A, 5 units of Machine B, and 5 units of Machine C. How many parts X, Y, and Z can Li ultimately obtain, and how many machines A, B, and C will remain?
+
+Generate the answer in the format <<<a string representing the outcome in the order of machines A, B, C, parts X, Y, Z>>>. For example, if Machine A has 1 unit, Machine B has 0 units, Machine C has 1 unit, Part X has 1 unit, Part Y has 1 unit, and Part Z has 1 unit, it should be represented as ["1", "0", "1", "1", "1", "1"].
+Your answer:

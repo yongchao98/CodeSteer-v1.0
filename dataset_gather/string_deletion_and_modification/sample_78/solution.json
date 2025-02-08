@@ -1,0 +1,23 @@
+{
+  "initial_string": "cbcbaabacc",
+  "selected_rules": [
+    "If the string prefix is 'bc', delete the first two characters and append 'aa' to the end.",
+    "If the string ends with 'aa', replace it with 'cc'.",
+    "If the string prefix is 'aa', remove the first character.",
+    "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character.",
+    "If the string prefix is 'cb', replace it with 'aa' and delete the last character.",
+    "If the string contains 'acb', replace the first occurrence with its reverse ('bca')."
+  ],
+  "intermediate_states": [
+    "cbcbaabacc",
+    "aacbaabac",
+    "acbaabac",
+    "bcaaabac",
+    "aaabacaa",
+    "aaabaccc",
+    "aabaccc",
+    "abaccc"
+  ],
+  "final_string": "abaccc",
+  "complexity": 5
+}

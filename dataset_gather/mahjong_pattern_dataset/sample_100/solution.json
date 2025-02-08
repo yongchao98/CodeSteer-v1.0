@@ -1,0 +1,11 @@
+{
+  "initial_cards": "LPGTRLZQGZSIQ",
+  "rounds": [
+    {
+      "add": "J",
+      "remove": "T"
+    }
+  ],
+  "solution": 0,
+  "complexity": 1
+}

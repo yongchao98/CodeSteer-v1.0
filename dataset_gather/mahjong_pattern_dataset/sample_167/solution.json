@@ -1,0 +1,27 @@
+{
+  "initial_cards": "BYCNMTZJUQXPQ",
+  "rounds": [
+    {
+      "add": "T",
+      "remove": "C"
+    },
+    {
+      "add": "Z",
+      "remove": "T"
+    },
+    {
+      "add": "R",
+      "remove": "X"
+    },
+    {
+      "add": "[",
+      "remove": "Z"
+    },
+    {
+      "add": "[",
+      "remove": "["
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

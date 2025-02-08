@@ -1,0 +1,15 @@
+{
+  "initial_cards": "VQFIUPNXEKOEJ",
+  "rounds": [
+    {
+      "add": "E",
+      "remove": "V"
+    },
+    {
+      "add": "P",
+      "remove": "J"
+    }
+  ],
+  "solution": 2,
+  "complexity": 2
+}

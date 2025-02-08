@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "R",
+      "G",
+      "J"
+    ],
+    [
+      "Z",
+      "U",
+      "L"
+    ],
+    [
+      "K",
+      "S",
+      "V"
+    ]
+  ],
+  "solution": [
+    [
+      "K",
+      "Z",
+      "R"
+    ],
+    [
+      "S",
+      "U",
+      "G"
+    ],
+    [
+      "V",
+      "L",
+      "J"
+    ]
+  ],
+  "formatted_solution": "K,Z,R,S,U,G,V,L,J",
+  "complexity": 3
+}

@@ -1,0 +1,11 @@
+{
+  "initial_cards": "BAQKNHWLJWPOT",
+  "rounds": [
+    {
+      "add": "T",
+      "remove": "A"
+    }
+  ],
+  "solution": 0,
+  "complexity": 1
+}

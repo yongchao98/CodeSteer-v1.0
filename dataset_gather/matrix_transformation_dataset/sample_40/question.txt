@@ -1,0 +1,7 @@
+Given a 2D array of strings, which represents a letter matrix. Your task is to rotate this matrix 90 degrees clockwise and output the result.
+If the matrix is 
+S Z M
+S D F
+V W X.
+What is the result?
+Return your answer with format <<<list of values and symbols>>>, For example, <<<A,B,C,D>>> represents a 2D array.

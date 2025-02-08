@@ -1,0 +1,27 @@
+{
+  "initial_cards": "CAKXOIFTUDHMR",
+  "rounds": [
+    {
+      "add": "K",
+      "remove": "A"
+    },
+    {
+      "add": "Q",
+      "remove": "M"
+    },
+    {
+      "add": "Y",
+      "remove": "R"
+    },
+    {
+      "add": "V",
+      "remove": "D"
+    },
+    {
+      "add": "T",
+      "remove": "X"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

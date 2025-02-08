@@ -1,0 +1,24 @@
+{
+  "matrix": [
+    [
+      "Q",
+      "X"
+    ],
+    [
+      "O",
+      "X"
+    ]
+  ],
+  "solution": [
+    [
+      "O",
+      "Q"
+    ],
+    [
+      "X",
+      "X"
+    ]
+  ],
+  "formatted_solution": "O,Q,X,X",
+  "complexity": 2
+}

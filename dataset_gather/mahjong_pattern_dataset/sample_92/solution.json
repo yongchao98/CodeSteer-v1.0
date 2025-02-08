@@ -1,0 +1,27 @@
+{
+  "initial_cards": "GRCPONYJVADUA",
+  "rounds": [
+    {
+      "add": "A",
+      "remove": "C"
+    },
+    {
+      "add": "N",
+      "remove": "Y"
+    },
+    {
+      "add": "W",
+      "remove": "A"
+    },
+    {
+      "add": "Q",
+      "remove": "D"
+    },
+    {
+      "add": "S",
+      "remove": "A"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

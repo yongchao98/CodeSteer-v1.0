@@ -1,0 +1,27 @@
+{
+  "initial_cards": "SRNVLXKWYKRPB",
+  "rounds": [
+    {
+      "add": "T",
+      "remove": "N"
+    },
+    {
+      "add": "Z",
+      "remove": "R"
+    },
+    {
+      "add": "V",
+      "remove": "W"
+    },
+    {
+      "add": "R",
+      "remove": "T"
+    },
+    {
+      "add": "R",
+      "remove": "Y"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

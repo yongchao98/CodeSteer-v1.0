@@ -1,0 +1,23 @@
+{
+  "initial_string": "bbcbccacaacbbab",
+  "selected_rules": [
+    "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character.",
+    "If the string prefix is 'bc', delete the first two characters and append 'aa' to the end.",
+    "If the string starts with 'bb', remove the second character.",
+    "If the string prefix is 'ca', replace it with 'bb' and append 'c' to the end.",
+    "If the string suffix is 'cc', replace it with 'b' and prepend 'a' to the start.",
+    "If the string prefix is 'cb', replace it with 'aa' and delete the last character."
+  ],
+  "intermediate_states": [
+    "bbcbccacaacbbab",
+    "bbcbccaacbbab",
+    "bbcbcacbbab",
+    "bbcbcbbab",
+    "bcbcbbab",
+    "bcbbabaa",
+    "bbabaaaa",
+    "babaaaa"
+  ],
+  "final_string": "babaaaa",
+  "complexity": 5
+}

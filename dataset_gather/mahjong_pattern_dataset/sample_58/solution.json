@@ -1,0 +1,27 @@
+{
+  "initial_cards": "YLODUAJMRWMEI",
+  "rounds": [
+    {
+      "add": "V",
+      "remove": "E"
+    },
+    {
+      "add": "X",
+      "remove": "L"
+    },
+    {
+      "add": "J",
+      "remove": "J"
+    },
+    {
+      "add": "W",
+      "remove": "M"
+    },
+    {
+      "add": "K",
+      "remove": "U"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

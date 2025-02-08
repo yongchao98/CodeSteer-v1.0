@@ -1,0 +1,27 @@
+{
+  "initial_cards": "TKGTJSEXLPPFW",
+  "rounds": [
+    {
+      "add": "T",
+      "remove": "E"
+    },
+    {
+      "add": "P",
+      "remove": "S"
+    },
+    {
+      "add": "T",
+      "remove": "X"
+    },
+    {
+      "add": "T",
+      "remove": "L"
+    },
+    {
+      "add": "H",
+      "remove": "T"
+    }
+  ],
+  "solution": 2,
+  "complexity": 5
+}

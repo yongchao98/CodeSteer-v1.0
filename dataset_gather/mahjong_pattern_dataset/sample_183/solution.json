@@ -1,0 +1,27 @@
+{
+  "initial_cards": "SCYMUJHOOUZIJ",
+  "rounds": [
+    {
+      "add": "C",
+      "remove": "J"
+    },
+    {
+      "add": "K",
+      "remove": "I"
+    },
+    {
+      "add": "C",
+      "remove": "M"
+    },
+    {
+      "add": "O",
+      "remove": "C"
+    },
+    {
+      "add": "O",
+      "remove": "H"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

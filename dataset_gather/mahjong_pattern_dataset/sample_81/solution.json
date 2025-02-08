@@ -1,0 +1,27 @@
+{
+  "initial_cards": "JWAQQMFOEICAM",
+  "rounds": [
+    {
+      "add": "G",
+      "remove": "E"
+    },
+    {
+      "add": "D",
+      "remove": "A"
+    },
+    {
+      "add": "C",
+      "remove": "W"
+    },
+    {
+      "add": "F",
+      "remove": "A"
+    },
+    {
+      "add": "Q",
+      "remove": "M"
+    }
+  ],
+  "solution": 1,
+  "complexity": 5
+}

@@ -1,0 +1,27 @@
+{
+  "initial_cards": "SJHNJZLNECFXL",
+  "rounds": [
+    {
+      "add": "J",
+      "remove": "J"
+    },
+    {
+      "add": "G",
+      "remove": "Z"
+    },
+    {
+      "add": "T",
+      "remove": "N"
+    },
+    {
+      "add": "D",
+      "remove": "J"
+    },
+    {
+      "add": "A",
+      "remove": "N"
+    }
+  ],
+  "solution": 0,
+  "complexity": 5
+}

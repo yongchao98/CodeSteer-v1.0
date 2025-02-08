@@ -1,0 +1,38 @@
+{
+  "matrix": [
+    [
+      "G",
+      "Y",
+      "Z"
+    ],
+    [
+      "A",
+      "A",
+      "A"
+    ],
+    [
+      "U",
+      "B",
+      "Y"
+    ]
+  ],
+  "solution": [
+    [
+      "U",
+      "A",
+      "G"
+    ],
+    [
+      "B",
+      "A",
+      "Y"
+    ],
+    [
+      "Y",
+      "A",
+      "Z"
+    ]
+  ],
+  "formatted_solution": "U,A,G,B,A,Y,Y,A,Z",
+  "complexity": 3
+}

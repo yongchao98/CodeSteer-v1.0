@@ -1,0 +1,14 @@
+Given a 10*10 grid where each cell contains a number (between -20 to 20), you must select 25 different numbers from these cells. The product of each row and column of the selected number must be greater than 0. The numbers in the same row are separated by ',', and the coordinate system uses the top-left cell as the coordinate (1,1), with the horizontal coordinate under the top-left cell increasing and the vertical coordinate to the right of the top-left cell increasing.
+Using the number 18 in the top-rightmost square (0,9) as the first selected number
+11, 9, 9, -4, -14, -9, 11, 14, 3, 18
+-12, -1, 8, 19, -8, -7, -5, 6, 18, 11
+-9, 5, 13, 11, 7, -9, 6, 19, 5, -16
+-9, -20, -18, 11, -11, 2, -17, 2, 4, -19
+-17, 7, -8, 11, 17, 12, 13, -10, 7, -9
+6, 17, 19, -20, -13, -9, 4, 13, 10, -19
+19, 8, 2, 5, 9, 17, 4, 17, 5, -8
+11, 2, 18, -16, -6, 1, 5, 13, 4, -11
+15, 11, -14, 18, -12, 12, -13, 18, -3, 20
+-2, 7, 14, 3, 20, 5, 6, -13, 1, 10
+
+Return your answer with the format <<<list of selected number positions>>>, where each position is given as row column (0-based indices). For example, <<<0 3, 1 0, 2 4>>> means numbers selected are at positions (0,3), (1,0), and (2,4).
