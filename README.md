@@ -100,13 +100,9 @@ Then we run the code with (default setting is in train_llama3-8B-CodeSteer.sh us
 bash train_llama3-8B-CodeSteer.sh
 ```
 
-## Feedback
-
-We appreciate all feedback! Feel free to raise an issue for bugs, questions, or suggestions.
-
 ## Assistance
 
-Contacting [Yongchao Chen](https://yongchao98.github.io/YongchaoChen/) and [Chuchu Fan](https://chuchu.mit.edu) for any questions and discussion.
+We appreciate all feedback! Feel free to raise an issue for bugs, questions, or suggestions. Contacting [Yongchao Chen](https://yongchao98.github.io/YongchaoChen/) and [Chuchu Fan](https://chuchu.mit.edu) for any questions and discussion.
 
 ## Citation
 ```md
