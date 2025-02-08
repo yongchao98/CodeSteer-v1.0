@@ -12,7 +12,7 @@
 - [Framework](#Framework)
 - [Inspirations](#Inspirations)
 - [Performance](#Performance)
-- [Environment Setup](#Environment Setup)
+- [Environment Setup](#EnvironmentSetup)
 - [LLM API Key Setup](#LLM API Key Setup)
 - [Train and Test Models](#Train and Test Models)
   -[Create test samples](#Create test samples)
