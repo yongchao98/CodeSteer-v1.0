@@ -1,3 +1,0 @@
-Let a and b be numbers. Define a&b to be 2*a+5*b.
-Calculate (3&4)&3.
-Return your answer with format <<<list of values and symbols>>>

@@ -1,7 +1,0 @@
-{
-  "solution": 1260.0,
-  "complexity": 2,
-  "operator_definitions": {
-    "&": "2*a*b"
-  }
-}

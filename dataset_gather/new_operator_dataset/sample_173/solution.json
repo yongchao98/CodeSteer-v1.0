@@ -1,7 +1,0 @@
-{
-  "solution": 17.0,
-  "complexity": 2,
-  "operator_definitions": {
-    "#": "1*a+1*b"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "solution": 5.0,
-  "complexity": 5,
-  "operator_definitions": {
-    "&": "4*a+2*b",
-    "@": "(a + b)/b",
-    "~": "5*a+1*b"
-  }
-}

@@ -1,3 +1,0 @@
-Let a and b be numbers. Define a@b to be (a + b)/b.
-Calculate (7@10)@6.
-Return your answer with format <<<list of values and symbols>>>

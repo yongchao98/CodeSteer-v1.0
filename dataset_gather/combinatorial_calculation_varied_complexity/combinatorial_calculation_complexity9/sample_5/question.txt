@@ -1,3 +1,0 @@
-Given 15 integers between 1 and 9, perform arithmetic operations (addition, subtraction, multiplication, division, and parentheses) between these integers. Each number must be used exactly once and only once, and the final result should be 300. Note: The order of the numbers is determined by the input, and you cannot change the order of the numbers. You can only insert arithmetic operations or parentheses between the numbers.
-Return the answer with a list of values and calculation symbols. Return your answer with the format <<<list of values and symbols>>>, like <<<[1, +, 3]>>> means 1+3, <<<[4, -, (, 6, , 9, )]>>> means 4-69*.Now the input numbers are: 9, 7, 8, 9, 6, 1, 6, 5, 7, 1, 1, 1, 5, 9, 6, the target values is: 300
- Your answer:

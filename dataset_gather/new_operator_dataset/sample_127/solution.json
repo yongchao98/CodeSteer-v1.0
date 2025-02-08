@@ -1,7 +1,0 @@
-{
-  "solution": 3.6666666666666665,
-  "complexity": 2,
-  "operator_definitions": {
-    "#": "(a + b)/b"
-  }
-}

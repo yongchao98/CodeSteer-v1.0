@@ -1,7 +1,0 @@
-{
-  "solution": 3456.0,
-  "complexity": 2,
-  "operator_definitions": {
-    "@": "4*a*b"
-  }
-}

@@ -1,8 +1,0 @@
-Please deduce the correct password based on the following 5 known conditions:
-A certain combination lock consists of two numbers and two letters, with neither the numbers nor the letters repeating.
-1. Guess: 56QS, Feedback: one number is correct and in the correct position; one number is incorrect and incorrect; both letters are incorrect and too late in the alphabet.
-2. Guess: 47KB, Feedback: both numbers are incorrect; both letters are incorrect.
-3. Guess: 83CN, Feedback: one number is correct but in the wrong position; one number is incorrect and too small; one letter is correct but in the wrong position; one letter is incorrect and too late in the alphabet.
-4. Guess: 35JX, Feedback: one number is correct but in the wrong position; one number is incorrect and too small; both letters are incorrect and too late in the alphabet.
-5. Guess: 95FG, Feedback: one number is correct but in the wrong position; one number is incorrect and too large; one letter is correct but in the wrong position; one letter is incorrect and incorrect.
-Please provide your answer in the format <<< ["X", "Y", "Z", "W"] >>> where X and Y are the numbers and Z and W are the letters of the password.

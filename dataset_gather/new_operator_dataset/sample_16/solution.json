@@ -1,9 +1,0 @@
-{
-  "solution": 18.5,
-  "complexity": 5,
-  "operator_definitions": {
-    "@": "(a + b)/b",
-    "#": "2*a+3*b",
-    "$": "(a + b)/b"
-  }
-}

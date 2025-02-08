@@ -1,9 +1,0 @@
-{
-  "solution": 72.0,
-  "complexity": 5,
-  "operator_definitions": {
-    "#": "1*a+4*b",
-    "&": "3*a+3*b",
-    "%": "5*a*b"
-  }
-}
