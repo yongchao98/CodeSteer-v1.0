@@ -9,9 +9,9 @@
 
 ## Contents
 
-- [Framework](##Framework)
-- [Inspirations](##Inspirations)
-- [Performance](##Performance)
+- [Framework](#Framework)
+- [Inspirations](#Inspirations)
+- [Performance](#Performance)
 
 ## Framework
 <img src="./Figures/CodeSteer-intro.png" width="800px" alt="s" />
