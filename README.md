@@ -81,6 +81,7 @@ We use Llama-factory and DeepSpeed for fintuning processes. First install Llama-
 git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
+cd ..
 ```
 
 Then we run the code with (default setting is in train_llama3-8B-CodeSteer.sh using 4*H100 of Harvard Cluster, please modify freely with your own cluster settings):
