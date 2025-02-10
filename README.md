@@ -112,6 +112,18 @@ We appreciate all feedback! Feel free to raise an issue for bugs, questions, or 
 
 ## Citation
 ```md
+@misc{chen2025codesteersymbolicaugmentedlanguagemodels,
+      title={CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance}, 
+      author={Yongchao Chen and Yilun Hao and Yueying Liu and Yang Zhang and Chuchu Fan},
+      year={2025},
+      eprint={2502.04350},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.04350}, 
+}
+```
+
+```md
 @article{chen2024steering,
   title={Steering Large Language Models between Code Execution and Textual Reasoning},
   author={Chen, Yongchao and Jhamtani, Harsh and Sharma, Srinagesh and Fan, Chuchu and Wang, Chi},
