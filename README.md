@@ -2,7 +2,7 @@
 <img src="./Figures/Tag.png" width="650px" alt="s" />
 These are the codes, models, and datasets for the following papers:
 
-- [CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance](https://drive.google.com/file/d/1306XuVc-_CvXSP2WBRCAH9JBFUos_Kpf/view?usp=share_link)  
+- [CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance](https://arxiv.org/abs/2502.04350)
 - [Steering Large Language Models between Code Execution and Textual Reasoning (ICLR'2025)](https://arxiv.org/pdf/2410.03524)
 
 
