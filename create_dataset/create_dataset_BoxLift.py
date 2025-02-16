@@ -151,7 +151,7 @@ def read_test_case(filename: str) -> Tuple[List[int], List[int]]:
 
 if __name__ == "__main__":
     repeat_num = 20
-    Saving_path = f'/Users/yongchaochen/Robot_NLP/Codesteer/ICLR_Code/dataset_gather/BoxLift_dataset_SFT/'
+    Saving_path = f'../dataset_gather/BoxLift_dataset/'
     if not os.path.exists(Saving_path):
         os.makedirs(Saving_path)
 

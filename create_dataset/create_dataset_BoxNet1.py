@@ -56,8 +56,7 @@ def env_create(pg_row_num = 5, pg_column_num = 5, box_num_low_bound = 2, box_num
 
 if __name__ == "__main__":
       repeat_num = 25
-      #Saving_path = f'/n/vlassak_lab/Lab/simulation_data/NLP_robotics/experiment/T5/large_model/llama3/ICLR_Code/dataset_gather/BoxNet1_dataset/'
-      Saving_path = f'/Users/yongchaochen/Robot_NLP/Codesteer/ICLR_Code/dataset_gather/BoxNet1_dataset_SFT/'
+      Saving_path = f'../dataset_gather/BoxNet1_dataset/'
       if not os.path.exists(Saving_path):
         os.makedirs(Saving_path, exist_ok=True)
 
